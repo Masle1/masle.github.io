@@ -1,0 +1,119 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>/* Waline 暗色适配 */
+@media (prefers-color-scheme: dark) {
+    /* :root:not([data-user-color-scheme]) .v[data-class=v] .vpanel {
+        background: #0000;
+    }
+    :root:not([data-user-color-scheme]) .v[data-class=v] .veditor, .v[data-class=v] .vinput,
+    :root:not([data-user-color-scheme]) .v[data-class=v] .vheader label,
+    :root:not([data-user-color-scheme]) .v[data-class=v] .vbtn,
+    :root:not([data-user-color-scheme]) .v[data-class=v] .vaction,
+    :root:not([data-user-color-scheme]) .v[data-class=v] .vempty {
+        color: var(--hty-text-color) !important;
+    }
+    :root:not([data-user-color-scheme]) .v[data-class="v"] .veditor:focus, .v[data-class="v"] .vinput:focus{
+        background: #fff1 !important;
+    }
+    :root:not([data-user-color-scheme]) .v[data-class=v] .vcard .vmeta>span{
+        background: #fff1;
+        color: #ccc;
+    } */
+/* Aplayer 暗色适配 */
+    :root:not([data-user-color-scheme]) .aplayer {
+        background: rgba(30, 144, 255, 0.05);
+        color: var(--hty-text-color) !important;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-info .aplayer-music .aplayer-author {
+        color: #ddd;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-list ol li.aplayer-list-light {
+        background: #505050;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-list ol li .aplayer-list-author {
+        color: #aaa;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-list ol li .aplayer-list-index {
+        color: #cfcfcf;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-lrc:after {
+        background: linear-gradient(180deg, hsl(221deg 33% 17% / 0%) 0, hsl(221deg 33% 17%));
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-lrc:before {
+        background: linear-gradient(180deg, #1d263a 0, hsl(0deg 0% 0% / 0%));
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+        fill: #fff;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-lrc p {
+        color: #fff;
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-list ol li {
+        border-top: 1px solid #2e2e2e;
+    }
+    :root:not([data-user-color-scheme]) .aplayer.aplayer-withlist .aplayer-info {
+        border-bottom: 1px solid #404040;
+    }
+    :root:not([data-user-color-scheme]) .aplayer {
+        color: var(--hty-text-color);
+    }
+    :root:not([data-user-color-scheme]) .aplayer .aplayer-list ol li:hover{
+      background: #444;
+    }
+}
+/* [data-user-color-scheme='dark'] .v[data-class=v] .vpanel {
+  background: #0000;
+}
+[data-user-color-scheme='dark'] .v[data-class=v] .veditor, .v[data-class=v] .vinput,
+[data-user-color-scheme='dark'] .v[data-class=v] .vheader label,
+[data-user-color-scheme='dark'] .v[data-class=v] .vbtn,
+[data-user-color-scheme='dark'] .v[data-class=v] .vaction,
+[data-user-color-scheme='dark'] .v[data-class=v] .vempty {
+  color: var(--hty-text-color) !important;
+}
+[data-user-color-scheme='dark'] .v[data-class="v"] .veditor:focus, .v[data-class="v"] .vinput:focus{
+  background: #fff1 !important;
+}
+[data-user-color-scheme='dark'] .v[data-class=v] .vcard .vmeta>span{
+  background: #fff1;
+  color: #ccc;
+} */
+/* Aplayer 暗色适配 */
+[data-user-color-scheme='dark'] .aplayer {
+  background: rgba(30, 144, 255, 0.05);
+  color: var(--hty-text-color) !important;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-info .aplayer-music .aplayer-author {
+  color: #ddd;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-list ol li.aplayer-list-light {
+  background: #505050;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-list ol li .aplayer-list-author {
+  color: #aaa;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-list ol li .aplayer-list-index {
+  color: #cfcfcf;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-lrc:after {
+  background: linear-gradient(180deg, hsl(221deg 33% 17% / 0%) 0, hsl(221deg 33% 17%));
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-lrc:before {
+  background: linear-gradient(180deg, #1d263a 0, hsl(0deg 0% 0% / 0%));
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path {
+  fill: #fff;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-lrc p {
+  color: #fff;
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-list ol li {
+  border-top: 1px solid #2e2e2e;
+}
+[data-user-color-scheme='dark'] .aplayer.aplayer-withlist .aplayer-info {
+  border-bottom: 1px solid #404040;
+}
+[data-user-color-scheme='dark'] .aplayer {
+  color: var(--hty-text-color);
+}
+[data-user-color-scheme='dark'] .aplayer .aplayer-list ol li:hover{
+background: #444;
+}

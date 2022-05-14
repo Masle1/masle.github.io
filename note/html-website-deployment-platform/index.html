@@ -1,0 +1,308 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#1E90FF"><meta name="author" content="Masle"><meta name="copyright" content="Masle"><meta name="generator" content="Hexo 5.4.0"><meta name="theme" content="hexo-theme-yun"><title>静态网站托管平台之碰壁记 | Masle's Blog - 老哲的小客栈</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/star-markdown-css@0.1.25/dist/yun/yun-markdown.min.css"><script src="//at.alicdn.com/t/font_1140697_dxory92pb0h.js" async></script><script src="https://cdn.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".post-content img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link id="light-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism.css" media="(prefers-color-scheme: light)"><link id="dark-prism-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@latest/themes/prism-tomorrow.css" media="(prefers-color-scheme: dark)"><link rel="icon" type="image/png" href="/favicon.png"><link rel="mask-icon" href="/favicon.png" color="#1E90FF"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="preload" href="/js/utils.js" as="script"><link rel="preload" href="/js/hexo-theme-yun.js" as="script"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="dns-prefetch" href="/ladybird.dnspod.net"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
+    const Yun = window.Yun || {};
+    window.CONFIG = {"hostname":"masle.top","root":"/","title":"老哲的小客栈","version":"1.7.0","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"想要搜些什么？","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"local_search":{"path":"/search.xml"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/utils.js"></script><script src="/js/hexo-theme-yun.js"></script><link rel="alternate" href="/atom.xml" title="Masle's Blog - 老哲的小客栈" type="application/atom+xml"><link rel="stylesheet" href="/css/custom.css"><script src="//at.alicdn.com/t/font_2519428_bplree3u3kp.js" async></script><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-V403WH8FWQ"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V403WH8FWQ');
+}</script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><meta name="description" content="使用静态网站的一大优点，当然就是不需要购买服务器，有各大平台的page服务可以免费托管你的网站。对我这样的穷学生十分友好😎但是由于各种因素，我尝试过多种网站托管平台（Gitee&#x2F;Github&#x2F;Cloudflare&#x2F;Conding&#x2F;Vercel），最终好像也没有找到真正喜欢的。  既然没有最喜欢的，那就找个最好用的~~">
+<meta property="og:type" content="article">
+<meta property="og:title" content="静态网站托管平台之碰壁记">
+<meta property="og:url" content="https://masle.top/note/html-website-deployment-platform/index.html">
+<meta property="og:site_name" content="Masle&#39;s Blog - 老哲的小客栈">
+<meta property="og:description" content="使用静态网站的一大优点，当然就是不需要购买服务器，有各大平台的page服务可以免费托管你的网站。对我这样的穷学生十分友好😎但是由于各种因素，我尝试过多种网站托管平台（Gitee&#x2F;Github&#x2F;Cloudflare&#x2F;Conding&#x2F;Vercel），最终好像也没有找到真正喜欢的。  既然没有最喜欢的，那就找个最好用的~~">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/masle1/p@main/img/html-website-deployment-platform/001.jpg">
+<meta property="article:published_time" content="2021-10-13T14:54:01.000Z">
+<meta property="article:modified_time" content="2022-01-21T00:00:00.000Z">
+<meta property="article:author" content="Masle">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="静态网站">
+<meta property="article:tag" content="Vercel">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/masle1/p@main/img/html-website-deployment-platform/001.jpg"><script src="/js/ui/mode.js"></script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Masle"><img width="96" loading="lazy" src="/Masle.1.svg" alt="Masle"><span class="site-author-status" title="静以制动，明以破军">😜</span></a><div class="site-author-name"><a href="/about/">Masle</a></div><a class="site-name" href="/about/site.html">Masle's Blog - 老哲的小客栈</a><sub class="site-subtitle">Every cloud has a silver lining.</sub><div class="site-desciption">一起向着未来奔跑和冒险吧</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">14</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">6</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">19</span></a></div><a class="site-state-item hty-icon-button" href="/sub" title="订阅兼留言板"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tongzhi"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://qm.qq.com/cgi-bin/qm/qr?k=Za9jFukCPbkaeCcPEm-v282XOq5PD4fs&amp;noverify=0" title="QQ 1848177368" target="_blank" style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="http://music.163.com/m/user/home?id=550725539" title="网易云音乐" target="_blank" style="color:#C20C0C"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-netease-cloud-music-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/389049232" title="哔哩哔哩" target="_blank" style="color:#FF8EB3"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-bilibili-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="http://www.coolapk.com/u/3260871" title="酷安" target="_blank" style="color:#1AAD19"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-coolapk"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:Masle04@outlook.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.link/" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-train-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-open-arm-line"></use></svg></a><a class="links-item hty-icon-button" href="/navigation/" title="我的收藏夹" style="color:undefined"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-star"></use></svg></a><a class="links-item hty-icon-button" href="/albums/" title="相册" style="color:undefined"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-gallery-line"></use></svg></a><a class="links-item hty-icon-button" href="/shuoshuo" title="说说" style="color:undefined"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-shuoshuo"></use></svg></a><a class="links-item hty-icon-button" target="_blank" rel="noopener" href="https://volantis.masle.top/" title="一个不是论坛的论坛" style="color:undefined"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tiaozhuan"></use></svg></a><a class="links-item hty-icon-button" target="_blank" rel="noopener" href="https://status.masle.top/" title="网站监视器" style="color:undefined"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-jianshiqi"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%99%90%E5%88%B6%E6%9D%A1%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text">限制条件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E5%B9%B3%E5%8F%B0"><span class="toc-number">2.</span> <span class="toc-text">部署平台</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Gitee"><span class="toc-number">2.1.</span> <span class="toc-text">Gitee</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Github"><span class="toc-number">2.2.</span> <span class="toc-text">Github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cloudflare"><span class="toc-number">2.3.</span> <span class="toc-text">Cloudflare</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Coding"><span class="toc-number">2.4.</span> <span class="toc-text">Coding</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vercel"><span class="toc-number">2.5.</span> <span class="toc-text">Vercel</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E6%AF%94"><span class="toc-number">3.</span> <span class="toc-text">对比</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2022-1-21"><span class="toc-number">5.</span> <span class="toc-text">2022&#x2F;1&#x2F;21</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article"><link itemprop="mainEntityOfPage" href="https://masle.top/note/html-website-deployment-platform/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Masle"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Masle's Blog - 老哲的小客栈"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">静态网站托管平台之碰壁记<a class="post-edit-link" href="https://github.com/Masle1/blog-backup/tree/main/source/_posts/note/html-website-deployment-platform.md" target="_blank" title="编辑" rel="noopener"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-edit-line"></use></svg></a></h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2021-10-13 14:54:01" itemprop="dateCreated datePublished" datetime="2021-10-13T14:54:01+00:00">2021-10-13</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-2-line"></use></svg></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2022-01-21 00:00:00" itemprop="dateModified" datetime="2022-01-21T00:00:00+00:00">2022-01-21</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">2k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">7m</span></span></span><span class="post-busuanzi"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg> <span id="busuanzi_value_page_pv"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-chat-3-line"></use></svg> <span class="waline-comment-count" id="/note/html-website-deployment-platform/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E7%AB%99%E9%95%BF%E7%9A%84%E5%B0%8F%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">站长的小笔记</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/Hexo/" style="--text-color:#0E83CD"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Hexo</span></a><a class="tag-item" href="/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">静态网站</span></a><a class="tag-item" href="/tags/Vercel/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">Vercel</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body" style="--smc-primary:#1E90FF;"><p>使用静态网站的一大优点，当然就是不需要购买服务器，有各大平台的page服务可以免费托管你的网站。<br><del>对我这样的穷学生十分友好</del>😎<br>但是由于各种因素，我尝试过多种网站托管平台（Gitee/<del>Github</del>/Cloudflare/Conding/Vercel），最终好像也没有找到真正喜欢的。</p>
+<blockquote>
+<p>既然没有最喜欢的，那就找个最好用的~~</p>
+</blockquote>
+<span id="more"></span>
+
+<div class="warning">
+
+<blockquote>
+<p>本篇具有一定的个人色彩，而且具有一定的时效性。请理性阅读</p>
+</blockquote>
+</div>
+
+<h2 id="限制条件"><a href="#限制条件" class="headerlink" title="限制条件"></a>限制条件</h2><ul>
+<li>无服务器</li>
+<li>域名无备案</li>
+</ul>
+<h2 id="部署平台"><a href="#部署平台" class="headerlink" title="部署平台"></a>部署平台</h2><h3 id="Gitee"><a href="#Gitee" class="headerlink" title="Gitee"></a><a target="_blank" rel="noopener" href="https://gitee.com/">Gitee</a></h3><hr>
+<p>Gitee的服务器位置位于上海，速度上无疑是五个中算很快的。<br>在Gitee部署后，使用的是Gitee的二级域名 xxx.gitee.io 。<br>我刚开始入门的时候就是使用的Gitee,但是由于仓库最大容量只有500M且单个文件最大50M。官方给出的表格：</p>
+<table>
+<thead>
+<tr>
+<th align="center">套餐</th>
+<th align="center">免费版</th>
+<th align="center">基础版</th>
+<th align="center">标准版</th>
+<th align="center">高级版</th>
+<th align="center">尊享版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">单仓库</td>
+<td align="center">最大 500 MB</td>
+<td align="center">最大 1 GB</td>
+<td align="center">最大 1 GB</td>
+<td align="center">最大 2 GB</td>
+<td align="center">最大 3 GB</td>
+</tr>
+<tr>
+<td align="center">单文件</td>
+<td align="center">最大 50 MB</td>
+<td align="center">最大 100 MB</td>
+<td align="center">最大 100 MB</td>
+<td align="center">最大 200 MB</td>
+<td align="center">最大 300 MB</td>
+</tr>
+</tbody></table>
+<p>这么多的版本，导致我已经不想要去看他的价格了。<br>其实Gitee劝退我还有一个比较大的原因，那就是它免费版不支持自定义域名。而且需要开通Page pro才可以自定义域名,费用是一年99。<br>99一年对我的作用貌似就只有自定义域名,具体可以查看官方文档：<a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4228">点击跳转</a>。<br>但是现在就算你想要开通，那你也开不了~~   因为Gitee已经关闭了个人用户的购买入口。</p>
+<p>由于我十分想购买个域名，所以我果断放弃Gitee。</p>
+<p>现在Gitee作为备用站之一，虽说是备用站,但估计是我所有链接中最快的一个。<br>Gitee示例：<a target="_blank" rel="noopener" href="https://masle.gitee.io/">masle.gitee.io</a></p>
+<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a><a target="_blank" rel="noopener" href="https://github.com/">Github</a></h3><hr>
+<p>其实我并没有在尝试过使用Github来部署，因为我对于Github在国内的访问速度深感堪忧。<br>不过Github的仓库大小相比Gitee好了很多。<br>Github单个文件大小不能超过100M。<br>仓库大小在官方文档是这样解释的：“建议仓库保持较小，理想情况下小于 1 GB，强烈建议小于 5 GB。 较小的仓库克隆速度更快，使用和维护更容易。”<br><del>据说在超过5G后，你会收到Github的提醒邮件。</del></p>
+<p>我更多的时候再把Github作为一个托管我的博客文件的仓库，这也源于许多静态网站部署平台都支持直接使用Github直接进行部署。</p>
+<h3 id="Cloudflare"><a href="#Cloudflare" class="headerlink" title="Cloudflare"></a><a target="_blank" rel="noopener" href="https://dash.cloudflare.com/">Cloudflare</a></h3><hr>
+<p>Cloudflare便是我放弃Gitee后的第一个选择。<br>Cloudflare支持直接使用Github的仓库进行部署，而且支持自动部署。</p>
+<blockquote>
+<p>自动部署：当检测到你所绑定的仓库内容更新时，自动进行重新部署。<del>不用像Gitee一样还要去它的网站重新部署😓</del></p>
+</blockquote>
+<p>域名方面，Cloudflare支持自定义域名，而且域名还不用备案。<br>Cloudflare有自己的DNS和CDN。不过他的CDN在国内被称为减速CDN。<br>至于为什么叫减速CDN，那我就只能说“字面意思。”</p>
+<blockquote>
+<p>2021/10/13 <br>我放弃你了</p>
+</blockquote>
+<p>Cloudflare我大概也用了两个月左右，但是它的访问速度实在堪忧。<br>有个很奇怪的现象，就是我连接我家路由器的时候，访问部署在Cloudflare上的站点的时候，经常会加载超时。<br>但是我和<a target="_blank" rel="noopener" href="https://jonnys.top/">Jonny</a>说完后，他说他用着挺流畅啊。于是我关闭wifi用数据访问的时候，发现确实快了不少。<br>不过我感觉这个情况应该还有其他人会遇到，所以我放弃Cloudflare了。</p>
+<p>但是我还是将其作为一个备用站，毕竟我只要更新github仓库它就自动部署好了，我也不用去管他。<br>Cloudflare示例：<a target="_blank" rel="noopener" href="https://masle.pages.dev/">masle.pages.dev</a></p>
+<h3 id="Coding"><a href="#Coding" class="headerlink" title="Coding"></a><a target="_blank" rel="noopener" href="https://coding.net/">Coding</a></h3><hr>
+<p>Coding我也是最近才了解到。Coding支持自定义域名，不过没有备案的域名节点只能选择香港。<br>Coding与腾讯云结合，如何你在Coding部署，那Coding会强制你使用腾讯云的DNS和COS。<br>不过从这开始就违背了我们一开始所说免费搭建的原则,但是我还是想吐槽一下。<br>具体计费标准可以查看官方文档：<a target="_blank" rel="noopener" href="https://help.coding.net/docs/pages/price.html">点击跳转</a>。</p>
+<blockquote>
+<p>我变了</p>
+</blockquote>
+<p>看完之后，我感觉收费其实也不算贵，而且前六个月还有送免费体验的代金卷。那就试试吧，毕竟为了速度能值得了。<br>我将一切设置好了之后，发给<a target="_blank" rel="noopener" href="https://jonnys.top/">Jonny</a>问他有没有感觉我的网站快了一些。他说并没有多大的区别。<br>于是我查了一下Coding的CDN转入到哪里，结果一看，这个CDN居然转入到国外去了。<br>还不如我直接使用Coding直接生成在香港节点的那个链接。</p>
+<div class="danger">
+
+<blockquote>
+<p>使用香港节点，然后使用境外cdn加速有时候国内会访问不了。需要挂上梯子才能访问</p>
+</blockquote>
+</div>
+
+<p>但是由于部署赠送的SSL证书是绑定在CDN的域名上，所以用香港节点直接解析这个方法行不通。<br>更何况使用CDN的目的就是为了让访问更快，这样一来反而还不如使用Vercel。</p>
+<p>这种情况那我肯定放弃使用Coding，也许等我备案完域名我还会回来，但是现在绝对不是时候。</p>
+<h3 id="Vercel"><a href="#Vercel" class="headerlink" title="Vercel"></a><a target="_blank" rel="noopener" href="https://vercel.com/">Vercel</a></h3><hr>
+<p>Vercel是我现在正在用的部署平台，也是我觉得目前最适合我的。我的评论区也是部署在Vercel。<br>Vercel和Cloudflare同样支持直接使用github进行部署。<br>也支持自动部署，而且每次部署完成后都会邮件提醒你。而且还支持自定义域名</p>
+<p>速度也相较Cloudflare快了许多，具体可以看图。<br><img src="https://cdn.jsdelivr.net/gh/masle1/p@main/img/html-website-deployment-platform/001.jpg" alt="网站测速比较" loading="lazy"></p>
+<blockquote>
+<p>至少一年内，我不会再更换部署平台了</p>
+</blockquote>
+<h2 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h2><blockquote>
+<p>测试网站是<a target="_blank" rel="noopener" href="http://tool.chinaz.com/speedcom">站长工具</a>，数据可能会由于节点或者时间段不同而波动，测试数据仅供参考。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">部署平台</th>
+<th align="center">最快响应/s</th>
+<th align="center">最慢响应/s</th>
+<th align="center">平均响应/s</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Gitee</td>
+<td align="center">0.17</td>
+<td align="center">1.74</td>
+<td align="center">0.33</td>
+</tr>
+<tr>
+<td align="center">Github</td>
+<td align="center">0.32</td>
+<td align="center">15.6</td>
+<td align="center">3.11</td>
+</tr>
+<tr>
+<td align="center">Cloudflare</td>
+<td align="center">0.68</td>
+<td align="center">9.87</td>
+<td align="center">1.62</td>
+</tr>
+<tr>
+<td align="center">Coding</td>
+<td align="center">0.36</td>
+<td align="center">6.93</td>
+<td align="center">0.97</td>
+</tr>
+<tr>
+<td align="center">Vercel</td>
+<td align="center">0.09</td>
+<td align="center">9.45</td>
+<td align="center">0.72</td>
+</tr>
+</tbody></table>
+<p>这个Coding的数据是在香港节点使用境外cdn的情况下，如何是使用的境内cdn。<br>那速度应该会是这所有里面最快的。</p>
+<hr>
+<table>
+<thead>
+<tr>
+<th align="center">部署平台</th>
+<th align="center">国内访问速度</th>
+<th align="center">原始域名模板</th>
+<th align="center">是否支持自定义域名</th>
+<th align="center">是否需要实名认证</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Gitee</td>
+<td align="center">快</td>
+<td align="center">xxx.gitee.io</td>
+<td align="center">个人用户不支持</td>
+<td align="center">需要而且要求成年</td>
+</tr>
+<tr>
+<td align="center">Github</td>
+<td align="center">慢</td>
+<td align="center">xxx.github.io</td>
+<td align="center">支持</td>
+<td align="center">不需要</td>
+</tr>
+<tr>
+<td align="center">Cloudflare</td>
+<td align="center">较慢</td>
+<td align="center">xxx.pages.dev</td>
+<td align="center">支持</td>
+<td align="center">不需要</td>
+</tr>
+<tr>
+<td align="center">Coding</td>
+<td align="center">中等（境外cdn）</td>
+<td align="center">长到无法描述</td>
+<td align="center">支持</td>
+<td align="center">需要，无年龄要求</td>
+</tr>
+<tr>
+<td align="center">Vercel</td>
+<td align="center">中等</td>
+<td align="center">xxx.vercel.app</td>
+<td align="center">支持</td>
+<td align="center">不需要</td>
+</tr>
+</tbody></table>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>需要成年：</p>
+<ul>
+<li>如果你没有自定义域名的要求，只是想建个属于自己的博客玩玩。那极力推荐Gitee。（免费）</li>
+<li>如果你有自定义域名的要求或者你对仓库空间有要求，而且愿意出钱购买腾讯云的cos和cdn服务！那推荐使用Coding。（收费,选择境内节点的话域名需要备案,当然如果你选择使用Coding一定要使用境内节点，不然还不如用Vercel）</li>
+</ul>
+<hr>
+<p>不需要成年：</p>
+<ul>
+<li>可以选择用Vercel来部署，github来当做仓库。支持自定义域名。（免费，域名不用备案）</li>
+</ul>
+<hr>
+<p>如果Vercel接下来的有让我难以接受的缺点，那我会再成年后换成Coding。<br><del>如果不出大问题估计是不会换了</del><br><del>白嫖万岁</del></p>
+<p>end.</p>
+<h2 id="2022-1-21"><a href="#2022-1-21" class="headerlink" title="2022/1/21"></a>2022/1/21</h2><p>经过一段时间的使用，Vercel还是很快的，而且稳定。可能是我还没遇到被墙的时候，然后反而是在境内的Gitee挂了好几次。具体大家可以进去我的监视器看看：<a target="_blank" rel="noopener" href="https://status.masle.top/">https://status.masle.top/</a></p>
+</div><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-hand-coin-line"></use></svg></span><div id="reward-comment">我很可爱，请给我钱</div><div id="qr" style="display:none;"><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg"><img loading="lazy" src="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-alipay-line"></use></svg></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/QQ.jpg"><img loading="lazy" src="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/QQ.jpg" alt="QQ 支付" title="QQ 支付"></a><div><span style="color:#12B7F5"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-qq-line"></use></svg></span></div></div><div style="display:inline-block"><a target="_blank" rel="noopener" href="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/%E5%BE%AE%E4%BF%A1.jpg"><img loading="lazy" src="https://masle.gitee.io/maslebloglib/picture/%E8%B5%9E%E8%B5%8F/%E5%BE%AE%E4%BF%A1.jpg" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-wechat-pay-line"></use></svg></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>Masle</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://masle.top/note/html-website-deployment-platform/" title="静态网站托管平台之碰壁记">https://masle.top/note/html-website-deployment-platform/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><svg class="icon"><use xlink:href="#icon-creative-commons-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-by-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-nc-line"></use></svg><svg class="icon"><use xlink:href="#icon-creative-commons-sa-line"></use></svg></a> 许可协议。</li></ul></section></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/essay/set-up-forum/" rel="prev" title="一个论坛的诞生"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-left-s-line"></use></svg><span class="post-nav-text">一个论坛的诞生</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/share/a-letter-for-you/" rel="next" title="您的信到了！ -“影视推荐”"><span class="post-nav-text">您的信到了！ -“影视推荐”</span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-right-s-line"></use></svg></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>填写邮箱，可以收到回复通知哦~~</span><br><span>对了，不用登陆也可以评论哦~~</span><br></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" data-target="#waline" onclick="showComment(this.dataset.target)">waline</a><style>#twikoo {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" data-target="#twikoo" onclick="showComment(this.dataset.target)">twikoo</a><script>function hideAllComment() {
+  //- hide all
+  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
+    const container = document.querySelector(btn.dataset.target);
+    if (container) {
+      container.style.display = "none";
+    }
+  });
+}
+function showComment(target) {
+  hideAllComment();
+  //- show target
+  const targetContainer = document.querySelector(target);
+  if (targetContainer) {
+    targetContainer.style.display = "block";
+  }
+}
+</script></div><div id="waline"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js", () => {
+  const walineConfig = {"enable":true,"serverURL":"https://walineaa.vercel.app/","comment":true,"avatarCDN":"http://sdn.geekzu.org/avatar/","placeholder":"既然看到这里了，不妨评论一下吧~","requiredFields":["nick"],"el":"#waline","lang":"zh-CN"}
+  walineConfig.path = "/note/html-website-deployment-platform/"
+  walineConfig.dark = 'html[data-user-color-scheme="dark"]'
+  new Waline(walineConfig)
+}, window.Waline);</script><div id="tcomment"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", () => {
+  const twikooConfig = {"enable":true,"envId":"https://twikoo-masle1.vercel.app","region":null,"option":null}
+  twikooConfig.el = '#tcomment'
+  twikoo.init(twikooConfig)
+}, window.twikoo);</script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2021 – 2022 </span><span class="with-love" id="animate"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-cloud-line"></use></svg></span><span class="author"> Masle</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v5.4.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.7.0</span></div><div class="live-time"><span>本博客已艰难地运行</span><span id="display_live_time"></span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2021-04-10T00:00:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div id="busuanzi"><span id="busuanzi_container_site_uv" title="总访客量"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-user-line"></use></svg></span><span id="busuanzi_value_site_uv"></span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv" title="总访问量"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg></span><span id="busuanzi_value_site_pv"></span></span><script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div class="footer-custom-text"><a href="https://masle.top/sub"  target="opentype">点击前往订阅页面</a></div><div class="footer-support"><span>本网站由</span><a class="footer-support-logo" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" target="blank" title="又拍云"><img height="30" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="又拍云"></a><span>提供云存储服务</span></div></footer><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-arrow-up-s-line"></use></svg><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#1E90FF" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="搜索"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search-line"></use></svg></span></a><script>window.addEventListener("DOMContentLoaded", () => {
+  // Handle and trigger popup window
+  document.querySelector(".popup-trigger").addEventListener("click", () => {
+    document.querySelector(".popup").classList.add("show");
+    setTimeout(() => {
+      document.querySelector(".search-input").focus();
+    }, 100);
+  });
+
+  // Monitor main search box
+  const onPopupClose = () => {
+    document.querySelector(".popup").classList.remove("show");
+  };
+
+  document.querySelector(".popup-btn-close").addEventListener("click", () => {
+    onPopupClose();
+  });
+
+  window.addEventListener("keyup", event => {
+    if (event.key === "Escape") {
+      onPopupClose();
+    }
+  });
+});
+</script><script src="/js/search/local-search.js" defer></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-close-line"></use></svg></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="想要搜些什么？" value=""></div><div id="local-search-result"></div></div><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","12-13","3-27"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script></div><script>(function (w, d, s, id) {
+            if (typeof (w.webpushr) !== 'undefined') return; w.webpushr = w.webpushr || function () { (w.webpushr.q = w.webpushr.q || []).push(arguments) }; var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id; js.async = 1; js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window, document, 'script', 'webpushr-jssdk'));webpushr('setup', { 'key': 'BCTAZ0mn8TxOaiLhnGd3Ib1r9vD_ALAlMhsDF7TL1YLdswZHM7kDUacR511bYud-BJ5IrZ7A1TlO0N-XDP1y4f8' });</script></body></html>
