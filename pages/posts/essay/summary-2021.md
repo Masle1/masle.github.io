@@ -13,7 +13,7 @@ keywords:
 aplayer: true
 ---
 
-![航行日志](https://masle.top/img/voyage.jpg)
+<!-- ![航行日志](https://masle.top/img/voyage.jpg) -->
 
 > [航海日志|Baidu](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E6%97%A5%E5%BF%97/215707)
 

@@ -26,10 +26,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     },
 
-    notice: {
-      enable: true,
-      content: '开启新征程',
-    },
+    // notice: {
+    //   enable: true,
+    //   content: '开启新征程',
+    // },
 
     // menu: {
     //   custom: {
@@ -45,12 +45,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
-      {
-        name: '网站监视器',
-        url: 'https://status.masle.top/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
+      // {
+      //   name: '网站监视器',
+      //   url: 'https://status.masle.top/',
+      //   icon: 'i-ri-genderless-line',
+      //   color: 'dodgerblue',
+      // },
     ],
     // bg_image: {
     //   enable: true,

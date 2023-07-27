@@ -10,7 +10,7 @@ export default defineSiteConfig({
   description: '一起向着未来奔跑和冒险吧',
   author: {
     name: 'Masle',
-    avatar:'https://masle.top/Masle.1.jpg',
+    avatar:'https://masle.top/Masle.jpg',
     status: {
       emoji: '😣',
     },
