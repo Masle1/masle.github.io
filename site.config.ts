@@ -3,7 +3,7 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://masle.top',
-  favicon: "https://masle.top/favicon.png",
+  // favicon: "https://masle.top/favicon.png",
   lang: 'zh-CN',
   title: 'Masle的小客栈',
   subtitle: 'Every cloud has a silver lining.',
