@@ -3,14 +3,14 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://masle.top',
-  favicon: "https://masle.top/img/favicon.png",
+  favicon: "https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/favicon.png",
   lang: 'zh-CN',
   title: 'Masle的小客栈',
   subtitle: 'Every cloud has a silver lining.',
   description: '一起向着未来奔跑和冒险吧',
   author: {
     name: 'Masle',
-    avatar:'https://masle.top/Masle.jpg',
+    avatar:'https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/Masle.jpg',
     status: {
       emoji: '😣',
     },

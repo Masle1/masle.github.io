@@ -13,7 +13,7 @@ keywords:
 aplayer: true
 ---
 
-<!-- ![航行日志](https://masle.top/img/voyage.jpg) -->
+![航行日志](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage.jpg)
 
 > [航海日志|Baidu](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E6%97%A5%E5%BF%97/215707)
 
@@ -148,7 +148,7 @@ aplayer: true
 
 </div>
 
-![网易云](https://masle.top/img/ws2021.png)
+![网易云](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/ws2021.png)
 
 今年发现了很多的宝藏歌手，给大家推荐几个~
 - 裘德：应该算是流行音乐类型，但是他的编曲和风格十分的巧妙，听起来别有一番风味。
@@ -187,7 +187,7 @@ aplayer: true
 第一次用bilbil大概是三年前左右，由于是经常看短视频，所以这种长长的视频会对我产生一种莫名的吸引力。
 推送年度总结后，才发现差一点就可以拿个全勤奖了。
 更离谱的是，我今年才发现原来三连的意思是长按点赞，我一直都是一个个去点的。但是我经常只会点赞投币，基本不怎么收藏。因为我觉得好像有一些视频很好，但是觉得没必要收藏啊！除非是那些知识类教程类的收藏我才觉得合理。而这个习惯得后果就是... 今年三连数**1**；投币数**300左右**;点赞**500左右**;收藏**50**;
-![哔哩哔哩](https://masle.top/img/bs2021.jpg)
+![哔哩哔哩](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/bs2021.jpg)
 说哔哩哔哩是一个学习网站确实也不为过，上面有挺多很棒得内容。
 今年也发现了一些很棒的高质量Up主
 - [影视飓风](https://space.bilibili.com/946974) ：顾名思义就是一个做影视的up主，在这里你可以学到很多关于影视行业的知识。又名“狂暴影视”
@@ -279,7 +279,7 @@ aplayer: true
 
 感谢自己能够在这一年能够敢于去克服自己。
 
-![感谢所有的一切](https://masle.top/img/thanks.jpg)
+![感谢所有的一切](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/thanks.jpg)
 
 也正是有了这些值得感谢的一切，才造就了如今的我和小客栈。
 
@@ -299,7 +299,7 @@ aplayer: true
 
 新的一年即将到来，我谨以代表小客栈祝你新年快乐~
 
-![新年好](https://masle.top/img/happy-new-year.gif)
+![新年好](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/happy-new-year.gif)
 
 ---
 
