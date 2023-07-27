@@ -31,13 +31,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       content: '开启新征程',
     },
 
-    menu: {
-      custom: {
-        title: '订阅页面及留言板',
-        url: '/sub/',
-        icon: 'i-ri-clipboard-line'
-      }
-    },
+    // menu: {
+    //   custom: {
+    //     title: '',
+    //     url: '/sub/',
+    //     icon: 'i-ri-clipboard-line'
+    //   }
+    // },
     pages: [
       {
         name: '我的小伙伴们',
