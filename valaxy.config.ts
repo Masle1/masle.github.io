@@ -34,13 +34,13 @@ export default defineValaxyConfig<UserThemeConfig>({
     //   content: '开启新征程',
     // },
 
-    // menu: {
-    //   custom: {
-    //     title: '',
-    //     url: '/sub/',
-    //     icon: 'i-ri-clipboard-line'
-    //   }
-    // },
+    menu: {
+      custom: {
+        title: '',
+        url: '/sub/',
+        icon: 'i-ri-notification-3-line'
+      }
+    },
     pages: [
       {
         name: '我的小伙伴们',
@@ -48,12 +48,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
-      // {
-      //   name: '网站监视器',
-      //   url: 'https://status.masle.top/',
-      //   icon: 'i-ri-genderless-line',
-      //   color: 'dodgerblue',
-      // },
+      {
+        name: '网站监视器',
+        url: 'https://status.masle.top/',
+        icon: 'i-ri-computer-line',
+        color: '&#xEBCA;',
+      },
     ],
     // bg_image: {
     //   enable: true,
