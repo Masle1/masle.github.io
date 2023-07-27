@@ -1,18 +1,20 @@
 import { defineSiteConfig } from 'valaxy'
 
+
 export default defineSiteConfig({
+  url: 'https://masle.top',
+  favicon: "https://masle.top/favicon.png",
   lang: 'zh-CN',
   title: 'Masle的小客栈',
-  subtitle: 'All at sea.',
-  description: '希望能成为一个有趣的人',
+  subtitle: 'Every cloud has a silver lining.',
+  description: '一起向着未来奔跑和冒险吧',
   author: {
     name: 'Masle',
-    avatar:'/Masle.jpg',
+    avatar:'https://masle.top/Masle.1.jpg',
     status: {
       emoji: '😣',
     },
   },
-  url: 'https://www.masle.top',
   mediumZoom: { enable: true },
   social: [
     {

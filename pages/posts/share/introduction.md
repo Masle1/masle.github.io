@@ -13,9 +13,6 @@ aplayer: false
 [About Me丨关于我](/about/) <br />
 [About Site丨关于站点](/about/site.html/) <br />
 [Friend Links丨我和我的小伙伴们](/links/) <br />
-[Albums丨我的相册](/albums/) <br />
-[Favorites丨收藏夹](/navigation/) <br />
-[Chitchat丨个人说说](/shuoshuo/) <br />
 [Subccribe丨订阅博客](/sub/) <br />
 左上角的三条横杠点击打开侧边栏，右上角的放大镜点击进行站内搜索。
 

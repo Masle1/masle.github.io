@@ -1,5 +1,8 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
+// import { addonWaline } from "valaxy-addon-waline";
+// import { addonComponents } from "valaxy-addon-components";
+// import { addonLightGallery } from 'valaxy-addon-lightgallery';
 
 // add icons what you will need
 const safelist = [
@@ -17,29 +20,45 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: 'Masle的小客栈',
+      title: ['Masle','的','小','客','栈'],
       cloud: {
         enable: true,
       },
     },
 
+    notice: {
+      enable: true,
+      content: '开启新征程',
+    },
+
+    menu: {
+      custom: {
+        title: '订阅页面及留言板',
+        url: '/sub/',
+        icon: 'i-ri-clipboard-line'
+      }
+    },
     pages: [
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
+        name: '网站监视器',
+        url: 'https://status.masle.top/',
+        icon: 'i-ri-genderless-line',
+        color: 'dodgerblue',
       },
     ],
-
+    // bg_image: {
+    //   enable: true,
+    //   url: "https://xxx.xxxx",	// 白日模式背景
+    //   dark: "https://xxx.xxxx",	// 夜间模式背景
+    // },
     footer: {
-      since: 2016,
+      since: 2021,
       beian: {
         enable: false,
         icp: '苏ICP备17038157号',
@@ -49,3 +68,6 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 })
+
+
+
