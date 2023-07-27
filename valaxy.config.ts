@@ -1,6 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
-// import { addonWaline } from "valaxy-addon-waline";
+// import { addonWaline } from 'valaxy-addon-waline'
+
 // import { addonComponents } from "valaxy-addon-components";
 // import { addonLightGallery } from 'valaxy-addon-lightgallery';
 
@@ -9,6 +10,7 @@ const safelist = [
   'i-ri-home-line',
 ]
 
+
 /**
  * User Config
  */
@@ -16,7 +18,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
-
+  
   themeConfig: {
     banner: {
       enable: true,
@@ -25,6 +27,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
+
 
     // notice: {
     //   enable: true,

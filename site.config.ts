@@ -101,7 +101,18 @@ export default defineSiteConfig({
   // },
   search: {
     enable: true,
+    type: 'fuse',
   },
+  // 启用评论
+  comment: {
+    enable: true
+  },
+  // // 设置 valaxy-addon-waline 配置项
+  // addons: [
+  //   addonWaline({
+  //     serverURL: 'https://walineaa.vercel.app/',
+  //   }),
+  // ],  
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
@@ -127,3 +138,5 @@ export default defineSiteConfig({
     ],
   },
 })
+
+
