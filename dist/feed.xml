@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Masle的小客栈</title>
-        <link>https://www.masle.top/</link>
-        <description>希望能成为一个有趣的人</description>
-        <lastBuildDate>Tue, 25 Jul 2023 07:07:39 GMT</lastBuildDate>
+        <link>https://masle.top/</link>
+        <description>一起向着未来奔跑和冒险吧</description>
+        <lastBuildDate>Thu, 27 Jul 2023 08:12:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Masle的小客栈</title>
-            <url>https://www.masle.top/Masle.jpg</url>
-            <link>https://www.masle.top/</link>
+            <url>https://masle.top/Masle.1.jpg</url>
+            <link>https://masle.top/</link>
         </image>
         <copyright>CC BY-NC-SA 4.0 2023 © Masle</copyright>
-        <atom:link href="https://www.masle.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://masle.top/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[遗忘]]></title>
-            <link>https://www.masle.top/posts/essay/forget</link>
-            <guid>https://www.masle.top/posts/essay/forget</guid>
+            <link>https://masle.top/posts/essay/forget</link>
+            <guid>https://masle.top/posts/essay/forget</guid>
             <pubDate>Wed, 04 May 2022 16:14:33 GMT</pubDate>
             <content:encoded><![CDATA[<p>现在的我们每天都会接收来自这个世界的海量信息，无论是现实生活还是网络世界。都需要我们在有限的时间内去筛选、去处理这些信息。</p>
 <p>而我不是善于处理这些信息的人，只能尽我所能去的记住那些临近现实、和相对重要的信息。今天我刷视频的时候，偶然看到这样的一段言论，便把它放进这篇文章里面。</p>
@@ -29,8 +29,8 @@
         </item>
         <item>
             <title><![CDATA[HTML基础笔记]]></title>
-            <link>https://www.masle.top/posts/note/html-basic</link>
-            <guid>https://www.masle.top/posts/note/html-basic</guid>
+            <link>https://masle.top/posts/note/html-basic</link>
+            <guid>https://masle.top/posts/note/html-basic</guid>
             <pubDate>Thu, 10 Feb 2022 15:40:08 GMT</pubDate>
             <content:encoded><![CDATA[<h2>前言</h2>
 <p>这几天在家很无聊，在各种站点不断的反复横跳。不过昨天在一个叫<a href="https://obsidian.tridiamond.tech/">三钻</a>的站点上，看到了一篇<a href="https://obsidian.tridiamond.tech/post/frontend/fcc-html5-basics.html">共同HTML闯关的文章</a>，“关卡”源于一个叫<strong>freeCodeCamp</strong>的免费学习编程的网站。其中有<a href="https://www.freecodecamp.org/">官方英文版</a>|<a href="https://www.freecodecamp.one/">中文论坛版</a>,其中中文论坛版打不开。所以我只能用英文版，配合大佬三钻的文章来学习。</p>
@@ -43,8 +43,8 @@
         </item>
         <item>
             <title><![CDATA[航行志记-2021]]></title>
-            <link>https://www.masle.top/posts/essay/summary-2021</link>
-            <guid>https://www.masle.top/posts/essay/summary-2021</guid>
+            <link>https://masle.top/posts/essay/summary-2021</link>
+            <guid>https://masle.top/posts/essay/summary-2021</guid>
             <pubDate>Fri, 28 Jan 2022 21:13:14 GMT</pubDate>
             <content:encoded><![CDATA[<p><img src="https://masle.top/img/voyage.jpg" alt="航行日志"></p>
 <blockquote>
@@ -56,8 +56,8 @@
         </item>
         <item>
             <title><![CDATA[关于使用Pe安装系统的图文教程，适用于新手小白]]></title>
-            <link>https://www.masle.top/posts/share/how-to-install-windows-by-pe</link>
-            <guid>https://www.masle.top/posts/share/how-to-install-windows-by-pe</guid>
+            <link>https://masle.top/posts/share/how-to-install-windows-by-pe</link>
+            <guid>https://masle.top/posts/share/how-to-install-windows-by-pe</guid>
             <pubDate>Sat, 22 Jan 2022 08:10:35 GMT</pubDate>
             <content:encoded><![CDATA[<h3>关于为什么要写这篇教程</h3>
 <p>系统安装这个技能，已经慢慢的成为电脑用户需要学会的一项技能。所以本期教程就写关于使用PE重装系统的教程。</p>
@@ -79,8 +79,8 @@
         </item>
         <item>
             <title><![CDATA[静态网站托管平台之碰壁记]]></title>
-            <link>https://www.masle.top/posts/note/html-website-deployment-platform</link>
-            <guid>https://www.masle.top/posts/note/html-website-deployment-platform</guid>
+            <link>https://masle.top/posts/note/html-website-deployment-platform</link>
+            <guid>https://masle.top/posts/note/html-website-deployment-platform</guid>
             <pubDate>Thu, 20 Jan 2022 16:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>使用静态网站的一大优点，当然就是不需要购买服务器，有各大平台的page服务可以免费托管你的网站。<br>
 <s>对我这样的穷学生十分友好</s>😎<br>
@@ -93,16 +93,13 @@
         </item>
         <item>
             <title><![CDATA[🧭博客游览指南🧭]]></title>
-            <link>https://www.masle.top/posts/share/introduction</link>
-            <guid>https://www.masle.top/posts/share/introduction</guid>
+            <link>https://masle.top/posts/share/introduction</link>
+            <guid>https://masle.top/posts/share/introduction</guid>
             <pubDate>Mon, 27 Dec 2021 20:39:28 GMT</pubDate>
             <content:encoded><![CDATA[<h2>站内链接直达</h2>
 <p><a href="/about/">About Me丨关于我</a> <br /><br>
-<a href="/about/site.html/">About Site丨关于站点</a> <br /><br>
+<a href="/about/site/">About Site丨关于站点</a> <br /><br>
 <a href="/links/">Friend Links丨我和我的小伙伴们</a> <br /><br>
-<a href="/albums/">Albums丨我的相册</a> <br /><br>
-<a href="/navigation/">Favorites丨收藏夹</a> <br /><br>
-<a href="/shuoshuo/">Chitchat丨个人说说</a> <br /><br>
 <a href="/sub/">Subccribe丨订阅博客</a> <br /><br>
 左上角的三条横杠点击打开侧边栏，右上角的放大镜点击进行站内搜索。</p>
 <blockquote>
@@ -113,8 +110,8 @@
         </item>
         <item>
             <title><![CDATA[win10精简版纯净系统 专业版20h2 第二篇]]></title>
-            <link>https://www.masle.top/posts/share/win10-20h2-2</link>
-            <guid>https://www.masle.top/posts/share/win10-20h2-2</guid>
+            <link>https://masle.top/posts/share/win10-20h2-2</link>
+            <guid>https://masle.top/posts/share/win10-20h2-2</guid>
             <pubDate>Wed, 06 Oct 2021 21:31:16 GMT</pubDate>
             <content:encoded><![CDATA[<p><img src="https://masle.gitee.io/maslebloglib/picture/win10-20h2-2/%E6%A1%8C%E9%9D%A2.png" alt="WIN10"></p>
 <blockquote>
@@ -126,8 +123,8 @@
         </item>
         <item>
             <title><![CDATA[win10精简版纯净系统 专业版20h2]]></title>
-            <link>https://www.masle.top/posts/share/win10-20h2</link>
-            <guid>https://www.masle.top/posts/share/win10-20h2</guid>
+            <link>https://masle.top/posts/share/win10-20h2</link>
+            <guid>https://masle.top/posts/share/win10-20h2</guid>
             <pubDate>Wed, 06 Oct 2021 21:31:16 GMT</pubDate>
             <content:encoded><![CDATA[<p><img src="https://masle.gitee.io/maslebloglib/picture/win10-20h2/588b8f1d92e9e1d518c0832fe0c0904.png" alt="WIN10"></p>
 <blockquote>
@@ -138,8 +135,8 @@
         </item>
         <item>
             <title><![CDATA[学python"第一天"，写一个抽号数程序]]></title>
-            <link>https://www.masle.top/posts/note/how-to-write-a-random-number-program</link>
-            <guid>https://www.masle.top/posts/note/how-to-write-a-random-number-program</guid>
+            <link>https://masle.top/posts/note/how-to-write-a-random-number-program</link>
+            <guid>https://masle.top/posts/note/how-to-write-a-random-number-program</guid>
             <pubDate>Wed, 06 Oct 2021 18:22:53 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>这也是我第一次自己写程序，所以后续这个可能会根据我的认知来不断改进这个程序。</p>
@@ -149,8 +146,8 @@
         </item>
         <item>
             <title><![CDATA[您的信到了！ -“影视推荐”]]></title>
-            <link>https://www.masle.top/posts/share/a-letter-for-you</link>
-            <guid>https://www.masle.top/posts/share/a-letter-for-you</guid>
+            <link>https://masle.top/posts/share/a-letter-for-you</link>
+            <guid>https://masle.top/posts/share/a-letter-for-you</guid>
             <pubDate>Wed, 06 Oct 2021 11:21:19 GMT</pubDate>
             <content:encoded><![CDATA[<h2>前言</h2>
 <p>今年看了挺多番剧和电影的，一直想推荐给大家。<br>
@@ -164,8 +161,8 @@
         </item>
         <item>
             <title><![CDATA[My First Post]]></title>
-            <link>https://www.masle.top/posts/note/my-first-post</link>
-            <guid>https://www.masle.top/posts/note/my-first-post</guid>
+            <link>https://masle.top/posts/note/my-first-post</link>
+            <guid>https://masle.top/posts/note/my-first-post</guid>
             <pubDate>Sun, 03 Oct 2021 21:33:46 GMT</pubDate>
             <content:encoded><![CDATA[<p>My First Post</p>
 ]]></content:encoded>
@@ -173,8 +170,8 @@
         </item>
         <item>
             <title><![CDATA[我的夏日书单]]></title>
-            <link>https://www.masle.top/posts/diary/summer-book-list</link>
-            <guid>https://www.masle.top/posts/diary/summer-book-list</guid>
+            <link>https://masle.top/posts/diary/summer-book-list</link>
+            <guid>https://masle.top/posts/diary/summer-book-list</guid>
             <pubDate>Mon, 23 Aug 2021 10:37:06 GMT</pubDate>
             <content:encoded><![CDATA[<blockquote>
 <p>在这个漫长的暑假中，这几本书丰富了我的生活。不知不觉中，我感觉我渐渐爱上了阅读<br>
@@ -185,8 +182,8 @@
         </item>
         <item>
             <title><![CDATA[关于我的高一生活]]></title>
-            <link>https://www.masle.top/posts/diary/about-my-senior-life</link>
-            <guid>https://www.masle.top/posts/diary/about-my-senior-life</guid>
+            <link>https://masle.top/posts/diary/about-my-senior-life</link>
+            <guid>https://masle.top/posts/diary/about-my-senior-life</guid>
             <pubDate>Sun, 23 May 2021 15:42:36 GMT</pubDate>
             <content:encoded><![CDATA[<p><img src="https://masle.gitee.io/maslebloglib/picture/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E9%AB%98%E4%B8%AD%E7%94%9F%E6%B4%BB.jpg" alt="我也不知道怎么描述"></p>
 ]]></content:encoded>

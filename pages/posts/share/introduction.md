@@ -11,7 +11,7 @@ aplayer: false
 
 ## 站内链接直达
 [About Me丨关于我](/about/) <br />
-[About Site丨关于站点](/about/site.html/) <br />
+[About Site丨关于站点](/about/site/) <br />
 [Friend Links丨我和我的小伙伴们](/links/) <br />
 [Subccribe丨订阅博客](/sub/) <br />
 左上角的三条横杠点击打开侧边栏，右上角的放大镜点击进行站内搜索。
