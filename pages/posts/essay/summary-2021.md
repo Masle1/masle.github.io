@@ -46,10 +46,9 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage.
 
 ### 2021年的站点发展历程
 
-之后站点每年的发展历程也都会放在关于站点页面中，你可以点击侧边栏中的文字“老哲的小客栈”进行跳转，或者直接[点击跳转。](https://masle.top/about/site.html)
+之后站点每年的发展历程也都会放在关于站点页面中，你可以点击侧边栏中的文字“老哲的小客栈”进行跳转，或者直接[点击跳转。](https://masle.top/about/site)
 
-<details open>
-  <summary>2021</summary>
+::: details 2021
 
 **2021-12-30**
 忍痛关掉pwa，增加webpusher订阅、邮件订阅
@@ -69,7 +68,7 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage.
 **2021-4-10**
 博客基本搭建完成，使用了[Nexmoe的主题](https://github.com/theme-nexmoe/hexo-theme-nexmoe),并发出第一篇水文。
 
-</details>
+:::
 
 ### 站点文章
 

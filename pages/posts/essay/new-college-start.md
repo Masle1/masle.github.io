@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 启航再出发
+title: 高考结束，再启航
 date: 2023-07-28 11:25:07
 tags: 
     - 时光
@@ -13,7 +13,6 @@ keywords:
     - 大学
     - 高考
 aplayer: true
-hide: true
 cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/dxtzs.jpg
 ---
 
@@ -25,11 +24,12 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/dxtzs.j
 高考在网上的加油视频中，在电视剧中好像都显得热热烈烈。但是在我度过高三的这一年每一天都是稀疏平常的，也正是因为习惯了这种平常才让我产生了高三这一年一晃眼就结束了的感觉。
 
 <meting-js
- id="1960129463"
+ id="1832684671"
  server="netease"
  type="song"
  theme="#C20C0C">
 </meting-js>
+
 
 作为广东的新高考一卷考生，我当时的选科是物理化学政治。不少人听到这个选科都会感觉有点奇怪，怎么又文又理的。我其实也不太清楚我当时是怎么想的，可能是觉得我自己高三这一年会自觉背政治吧-0-事实上好像并没有。
 ![心情复杂](https://masle.gitee.io/maslebloglib/picture/biaoqing/xqfz.jpg)
@@ -51,6 +51,14 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/dxtzs.j
 高三那年定的目标刚好就是定的五百，收到成绩的时候我还有点怀疑。毕竟高二升高三那年的期末考我也才只有三百八九分。不过高兴归高兴，同时也把自己卡在了尴尬的分数。
 
 ## 志愿及录取
+
+<meting-js
+ id="2051707056"
+ server="netease"
+ type="song"
+ theme="#C20C0C">
+</meting-js>
+
 ### 志愿
 我这个分数段属于是在公办本科与民办本科的分界线，如果上公办本科的话专业就没得选了，如果上民办本科又面临着高额的学费。
 权衡利弊之下，我家里还是觉得选个好点的专业比较重要，而且这分数能进个非常不错的民办学校。
@@ -69,11 +77,24 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/dxtzs.j
 ![录取通知礼包](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/tzsdlb.jpg)
 不得不说还是很豪华的，~~内心：学费也挺豪华的emmmm一年3.4w~~
 
+---
+新的征程，新的开始。大学阶段也应当继续努力才能对得起这高额的学费了。
+
 ## Hexo→Valaxy
 其实本来在去年过年的时候就想着把博客框架换成valaxy框架，然后顺便给博客挂个CDN。但是碍于云游君还没出Hexo转移到Valaxy的迁移教程，以及学业的压力就打消了这个想法。
 
 ![废物](https://masle.gitee.io/maslebloglib/picture/biaoqing/fw.jpg)
 
-::: details 一些入坑时的朋友圈
+这段时间闲下来了，便把框架更换成[Valaxy](https://github.com/YunYouJun/valaxy)。~~主要发布一下这篇文章证明我还活着-0-~~
 
-:::
+## 暑假
+从高考完到现在除了学车倒是一直闲在家里，本来是打算找个暑假工干的。但是碍于学车的话请假比较麻烦就没去找暑假工。
+
+明天29号就要考科目三了，希望能一把过。
+
+
+## End
+
+最后，谢谢你能看到这里。祝你生活愉快~   ~~也祝我~~
+
+![时间流逝](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/timepast.jpg)

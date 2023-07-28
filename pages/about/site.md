@@ -43,18 +43,25 @@ Cloudflare镜像站：[masle.pages.dev](https://masle.pages.dev/)
 这里用来记录站点的发展历程
 
 ## 发展历程
-<details>
-  <summary>2022</summary>
+::: details 2023
+
+## 2022-7-28
+将博客从[Hexo框架](https://github.com/hexojs/hexo)更换为[Valaxy框架](https://github.com/YunYouJun/valaxy)。
+
+:::
+
+---
+
+::: details 2022
 
 ## 2022-4-5
 成功申请加入[Traveling开往](https://travellings.link/)
 
-</details>
+:::
 
 ---
 
-<details>
-  <summary>2021</summary>
+::: details 2021
 
 ## 2021-12-30
 关掉pwa，增加webpusher订阅、邮件订阅
@@ -74,7 +81,4 @@ Cloudflare镜像站：[masle.pages.dev](https://masle.pages.dev/)
 ## 2021-4-10
 博客基本搭建完成，使用了[Nexmoe的主题](https://github.com/theme-nexmoe/hexo-theme-nexmoe),并发出第一篇水文。
 
-</details>
-
-
-
+:::
