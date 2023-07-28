@@ -107,7 +107,7 @@ export default defineSiteConfig({
   comment: {
     enable: true
   },
-  // 设置 valaxy-addon-waline 配置项
+  // // 设置 valaxy-addon-waline 配置项
   // addons: [
   //   addonWaline({
   //     serverURL: 'https://walineaa.vercel.app/',
