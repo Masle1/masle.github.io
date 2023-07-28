@@ -11,9 +11,8 @@ keywords:
   - 年度总结
   - 扬帆起航
 aplayer: true
+cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage.jpg
 ---
-
-![航行日志](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage.jpg)
 
 > [航海日志|Baidu](https://baike.baidu.com/item/%E8%88%AA%E6%B5%B7%E6%97%A5%E5%BF%97/215707)
 
@@ -112,7 +111,7 @@ aplayer: true
 
 用了半年多的博客，大概对于静态网站部署平台的使用进行总结。防止别人像我一样走更多的弯路。
 
-**[一个论坛的诞生](https://masle.top/essay/set-up-forum/)**
+**[一个论坛的诞生](https://masle.top/essay/set-up-forum/)**  已停运
 
 其实这个不能算是一个论坛，只能算是一个文章中转站。当时看见Volantis这个主题好看，就心血来潮去搭建了一个。结果现在已经一个月没有去维护了，如果你想要这个站点的话，可以联系我。
 

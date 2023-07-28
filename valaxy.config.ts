@@ -66,11 +66,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '&#xEBCA;',
       },
     ],
-    // bg_image: {
-    //   enable: true,
-    //   url: "https://xxx.xxxx",	// 白日模式背景
-    //   dark: "https://xxx.xxxx",	// 夜间模式背景
-    // },
+    bg_image: {
+      enable: true,
+      url: "https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/background.jpg",	// 白日模式背景
+      dark: "https://masle.gitee.io/maslebloglib/picture/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/dark%20.jpg",	// 夜间模式背景
+    },
     footer: {
       since: 2021,
       beian: {
