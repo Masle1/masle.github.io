@@ -13,8 +13,15 @@ aplayer: false
 [About Me丨关于我](/about/) <br />
 [About Site丨关于站点](/about/site/) <br />
 [Friend Links丨我和我的小伙伴们](/links/) <br />
-[Subccribe丨订阅博客](/sub/) <br />
+[Subccribe丨订阅博客及留言板](/sub/) <br />
 左上角的三条横杠点击打开侧边栏，右上角的放大镜点击进行站内搜索。
+
+<!-- <meting-js
+ id="22712634"
+ server="netease"
+ type="song"
+ theme="#C20C0C">
+</meting-js> -->
 
 > 感谢你点进我的小站，你一定也是个有趣的灵魂吧！同时也欢迎你订阅我的博客,[点击前往订阅页面](https://masle.top/sub/)
 
