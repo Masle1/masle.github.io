@@ -2,6 +2,7 @@
 title: 关于我的高一生活
 date: 2021-05-23 15:42:36
 updated: 2021-05-23 15:42:36
+hide: true
 tags: [生活,时光]
 categories: 站长的小日记
 # cover: https://masle.gitee.io/maslebloglib/picture/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E9%AB%98%E4%B8%AD%E7%94%9F%E6%B4%BB.jpg
