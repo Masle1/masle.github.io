@@ -5,13 +5,14 @@ type: me
 # cover: https://masle.gitee.io/maslebloglib/picture/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E6%91%B8%E9%B1%BC%E6%97%A5%E8%AE%B0.jpg
 # coverWidth: 1200
 # coverHeight: 750
-description: 这是一个摸鱼日记，随缘更新，用于记录一些生活中的事情。
+description: 自我简介
 aplayer: true
 ---
 
 > ## Me
 「静以制动，明以破军」
-学生党，~~还在拼搏（摸鱼）的路上~~ 
+一名大一电子信息科学与技术的学生，~~还在拼搏（摸鱼）的路上~~ 
+~~正在学习c语言~~
 
 <div class="text-center">
     <div class="site-author-avatar">
@@ -38,5 +39,5 @@ aplayer: true
 - 邮箱：Masle04@outlook.com  (主要是~~找不到~~更好用的邮箱了)
 - 网易云音乐：[Masle老哲](https://music.163.com/#/user/home?id=550725539) （用了四年的播放器，很多小众歌手我还是很喜欢的~）
 - 哔哩哔哩： [Masle老哲](https://space.bilibili.com/389049232) (一直想发视频，但是不知道做点什么，所以...  不过我每天打开小破站的频率还是很高的)
-- 酷安：[哲儿](https://www.coolapk.com/u/3260871) （在酷安多多少少还是可以学到点东西的，至于为什么叫这个名字- 我也不知道，但是也改不了。~~一年才能改一次~~）
+- 酷安：[Masle老哲](https://www.coolapk.com/u/3260871) （在酷安多多少少还是可以学到点东西的）
 

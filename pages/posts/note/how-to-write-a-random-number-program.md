@@ -8,6 +8,7 @@ categories: 站长的小笔记
 # coverWidth: 1200
 # coverHeight: 750
 # description: 一个无聊时候用python写出来的简易抽号数的小程序。
+hide: true
 keywords: 
   - python
   - 随机抽号
