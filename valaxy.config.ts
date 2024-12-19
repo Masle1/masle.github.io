@@ -19,20 +19,17 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
   
-
-  siteConfig: {
-    // 启用评论
-    comment: {
-      enable: true
-    },
-  },
-  // 设置 valaxy-addon-waline 配置项
-    addons: [
-     addonWaline({
-       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-       serverURL: 'https://walinea.vercel.app/',
-     }),
-  ],
+  // addons: [
+  //   addonComponents(),
+  //   addonWaline({
+  //     serverURL: "https://walineaa.vercel.app/",		// Waline服务链接
+  //     locale: {
+  //       placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
+  //     },
+  //     comment: true,
+  //     pageview: true
+  //   }),
+  // ],
 
   themeConfig: {
     banner: {
@@ -62,12 +59,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
-      // {
-      //   name: '网站监视器',
-      //   url: 'https://status.masle.top/',
-      //   icon: 'i-ri-computer-line',
-      //   color: '&#xEBCA;',
-      // },
+      {
+        name: '网站监视器',
+        url: 'https://status.masle.top/',
+        icon: 'i-ri-computer-line',
+        color: '&#xEBCA;',
+      },
     ],
     bg_image: {
       enable: true,
