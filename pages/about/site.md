@@ -23,12 +23,13 @@ description: 建立本博客主要是用来记录博主遇到的一些有趣的�
 <div class="success">
 
 > 主站：[masle.top](https://masle.top/)
-
+Gitee镜像站：[masle.gitee.io](https://masle.gitee.io/)
+Cloudflare镜像站：[masle.pages.dev](https://masle.pages.dev/)
 
 </div>
 
 欢迎屏幕前的各位进入到这个网站，也欢迎给我留言和建议！
-![hao](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/good.jpg)
+![hao](https://masle.gitee.io/maslebloglib/picture/biaoqing/good.jpg)
 
 
 <div class="danger">
@@ -42,16 +43,6 @@ description: 建立本博客主要是用来记录博主遇到的一些有趣的�
 这里用来记录站点的发展历程
 
 ## 发展历程
-
-::: details 2024
-
-## 2024-12-19
-由于[Gitee](https://gitee.com/)关闭静态网站托管业务,已将图片全部迁移至github仓库.同时升级[Valaxy框架](https://github.com/YunYouJun/valaxy)至V0.22.4,Waline评论系统至V3.4.2
-
-:::
-
----
-
 ::: details 2023
 
 ## 2022-7-28

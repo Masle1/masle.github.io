@@ -10,12 +10,6 @@ aplayer: true
 # aside: true
 # toc: false
 links:
-  - url: https://kiri606.vercel.app/
-    avatar: https://kiri606.vercel.app/img/avatar.jpg
-    name: Kiri
-    blog: 不穿秋裤的小林
-    color: "#FF00CC" 
-    desc: 永远年轻永远热泪盈眶
   - url: https://jonnys.top/
     avatar: https://jonnys.top/img/avatar.png
     name: Jonny
@@ -24,24 +18,31 @@ links:
     color: "#207A5F" 
     email: jiangling2004@outlook.com
   - url: https://www.dp712.com/ 
-    avatar: https://dl.dp712.com/www/uploads/2024/08/20240827140308810-docker-logo.png
+    avatar: https://www.dp712.com/wp-content/uploads/2022/06/663bf9b8784e.jpg
     name: Defeated-Person
     blog: Defeated*Person
     desc: 一个普通学生创作者
     color: "#2C84D0" 
     email: 
+  - url: https://www.cyxtt.top/
+    avatar: https://cdn.jsdelivr.net/gh/showmaker-hub/cdn@main/avatar.jpg
+    name: 初意
+    blog: 初意的小站
+    desc: 生活就该是五彩缤纷的。
+    color: "#FF00CC" 
+    email:
   - url: https://misakishiki.site/
     avatar: https://misakishiki.site/aquced.png
     name: 栗木aquced
     blog: 栗木aquced的个人站点
     desc: 搞点后现代
     color: "#2C84D0" 
-  - url: https://www.geekery.cn/
-    avatar: https://www.geekery.cn/logo.svg
-    name: PaperDragon
-    blog: 运维开发绿皮书
-    color: "#FD82EE"
-    desc: 放置运维开发笔记、搜集、摘录、实践，保持好奇心，看文需谨慎，后果很严重！
+  - url: https://kiri606.vercel.app/
+    avatar: https://kiri606.vercel.app/img/avatar.jpg
+    name: Kiri
+    blog: 不穿秋裤的小林
+    color: "#FF00CC" 
+    desc: 永远年轻永远热泪盈眶
 
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
@@ -72,7 +73,9 @@ tip: 友链加载中～如失败请刷新重试～
 网站名称：老哲的小客栈
 网站地址：https://masle.top/
 网站简介：一起向未来奔跑和冒险吧！
-网站头像：https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg
+网站头像：  （两个头像任选一个，推荐第一个效果好）
+① https://masle.gitee.io/maslebloglib/picture/TOUXIANG/Masle.1.svg
+② https://masle.gitee.io/maslebloglib/picture/TOUXIANG/touxiang.png
 自行添加我的链接后可以在评论区留下你的博客信息
 博客信息包括「链接 头像 名字 博客名称 介绍 」以及两个非必需的「颜色 邮箱」
 

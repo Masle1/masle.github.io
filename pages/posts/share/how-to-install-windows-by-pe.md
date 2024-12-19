@@ -4,7 +4,7 @@ date: 2021-05-1 8:10:35
 updated: 2022-1-22 8:10:35
 tags: 系统安装
 categories: 站长的小笔记
-# cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/pejiaocheng/%E5%B0%81%E9%9D%A2.png
+# cover: https://masle.gitee.io/maslebloglib/picture/pejiaocheng/%E5%B0%81%E9%9D%A2.png
 # coverWidth: 1200
 # coverHeight: 750
 keywords: 
@@ -61,9 +61,9 @@ PE相当于是一个便捷的windows系统，不过是十分精简的系统，�
 </div>
 
 打开下载好的pe，直接全新制作
-![PE安装界面](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C1.png)
-![全新制作](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C2.png)
-![制作完成](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C3.png)
+![PE安装界面](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C1.png)
+![全新制作](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C2.png)
+![制作完成](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/%E4%BC%98%E5%90%AF%E9%80%9A%E5%88%B6%E4%BD%9C3.png)
 
 然后将下载的系统拷贝到刚刚做好的PE启动盘中，这时候之前文章的系统就可以使用啦~[传送门](https://masle.top/categories/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85/)
  ### 进入PE
@@ -73,9 +73,9 @@ PE相当于是一个便捷的windows系统，不过是十分精简的系统，�
 电脑开机的是也有提示启动快捷键。
 >  在此推荐使用uefi启动
 
-如图，开机时会提示快捷键，不过这个显示快捷键的时间很短。del键就是进入bios设置，f12就是进入启动列表![开机启动提示](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/%E4%B8%BB%E6%9D%BF%E5%90%AF%E5%8A%A8%E6%8F%90%E7%A4%BA.jpg)
-如果是通过UEFI启动，那就是出现这个界面，直接按回车就行了![UEFI启动界面](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/PE%20UEFI%E5%90%AF%E5%8A%A8.jpg)如果是Bios启动那就是这个界面，根据电脑配置来选择系统就行，正常都是选择win10![bios启动PE界面](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/PE%20bios%E5%90%AF%E5%8A%A8.jpg)这个时候我们就成功进入PE桌面了![pe桌面](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/PE%E6%A1%8C%E9%9D%A2.jpg)
+如图，开机时会提示快捷键，不过这个显示快捷键的时间很短。del键就是进入bios设置，f12就是进入启动列表![开机启动提示](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/%E4%B8%BB%E6%9D%BF%E5%90%AF%E5%8A%A8%E6%8F%90%E7%A4%BA.jpg)
+如果是通过UEFI启动，那就是出现这个界面，直接按回车就行了![UEFI启动界面](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/PE%20UEFI%E5%90%AF%E5%8A%A8.jpg)如果是Bios启动那就是这个界面，根据电脑配置来选择系统就行，正常都是选择win10![bios启动PE界面](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/PE%20bios%E5%90%AF%E5%8A%A8.jpg)这个时候我们就成功进入PE桌面了![pe桌面](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/PE%E6%A1%8C%E9%9D%A2.jpg)
  ### 安装系统
-等待PE系统软件加载完成后，打开桌面的EIX系统安装这个软件。然后第一步选择要安装的系统镜像，第二步选择想要安装的系统分区，第三步点击一键恢复![eix安装](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/EIX1.png)然后其余设置根据下面的图片来![eix安装](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/EIX2.png)![eix安装](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-install-windows-by-pe/pe%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E4%B8%AD.png)
+等待PE系统软件加载完成后，打开桌面的EIX系统安装这个软件。然后第一步选择要安装的系统镜像，第二步选择想要安装的系统分区，第三步点击一键恢复![eix安装](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/EIX1.png)然后其余设置根据下面的图片来![eix安装](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/EIX2.png)![eix安装](https://masle.gitee.io/maslebloglib/picture/how-to-install-windows-by-pe/pe%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E8%BF%9B%E8%A1%8C%E4%B8%AD.png)
  ### 完成安装
  由于系统是全程自动部署安装，所以自动等待安装完成即可。如果使用的是无万能驱动版或者官方原版镜像则需要进入系统后自行下载驱动精灵，将驱动打好。我封装的系统已经是优化完了的，如果是官方原版镜像安装的可以去百度或者酷安寻找新系统装完的优化教程。（如果你不在意或者是电脑性能强横，那这个优化就不是特别必要了）

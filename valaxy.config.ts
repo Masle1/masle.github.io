@@ -1,5 +1,5 @@
-import { defineValaxyConfig } from 'valaxy';
-import type { UserThemeConfig } from 'valaxy-theme-yun';
+import { defineValaxyConfig } from 'valaxy'
+import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonComponents } from "valaxy-addon-components";
 
@@ -19,20 +19,31 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
   
-
-  siteConfig: {
-    // 启用评论
-    comment: {
-      enable: true
-    },
-  },
-  // 设置 valaxy-addon-waline 配置项
-    addons: [
-     addonWaline({
-       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-       serverURL: 'https://walinea.vercel.app/',
-     }),
+<<<<<<< HEAD
+  // addons: [
+  //   addonComponents(),
+  //   addonWaline({
+  //     serverURL: "https://walineaa.vercel.app/",		// Waline服务链接
+  //     locale: {
+  //       placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
+  //     },
+  //     comment: true,
+  //     pageview: true
+  //   }),
+  // ],
+=======
+  addons: [
+    addonComponents(),
+    addonWaline({
+      serverURL: "https://walineaa.vercel.app/",		// Waline服务链接
+      locale: {
+        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
+      },
+      comment: true,
+      pageview: true
+    }),
   ],
+>>>>>>> parent of 4f3c257 (update valaxy)
 
   themeConfig: {
     banner: {
@@ -62,12 +73,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
-      // {
-      //   name: '网站监视器',
-      //   url: 'https://status.masle.top/',
-      //   icon: 'i-ri-computer-line',
-      //   color: '&#xEBCA;',
-      // },
+      {
+        name: '网站监视器',
+        url: 'https://status.masle.top/',
+        icon: 'i-ri-computer-line',
+        color: '&#xEBCA;',
+      },
     ],
     bg_image: {
       enable: true,
