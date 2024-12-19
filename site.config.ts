@@ -1,6 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 
+
 export default defineSiteConfig({
   url: 'https://masle.top',
   favicon: "https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/favicon.png",
@@ -10,9 +11,9 @@ export default defineSiteConfig({
   description: '一起向着未来奔跑和冒险吧',
   author: {
     name: 'Masle',
-    avatar:'https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/Masle.jpg',
+    avatar:'https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg',
     status: {
-      emoji: '😣',
+      emoji: '🫡',
     },
   },
   mediumZoom: { enable: true },
@@ -103,16 +104,6 @@ export default defineSiteConfig({
     enable: true,
     type: 'fuse',
   },
-  // 启用评论
-  comment: {
-    enable: true
-  },
-  // // 设置 valaxy-addon-waline 配置项
-  // addons: [
-  //   addonWaline({
-  //     serverURL: 'https://walineaa.vercel.app/',
-  //   }),
-  // ],  
   sponsor: {
     enable: false,
     title: '我很可爱，请给我钱！',
