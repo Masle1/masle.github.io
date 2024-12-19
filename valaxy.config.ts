@@ -1,5 +1,5 @@
-import { defineValaxyConfig } from 'valaxy';
-import type { UserThemeConfig } from 'valaxy-theme-yun';
+import { defineValaxyConfig } from 'valaxy'
+import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 import { addonComponents } from "valaxy-addon-components";
 
@@ -19,6 +19,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
   
+<<<<<<< HEAD
   // addons: [
   //   addonComponents(),
   //   addonWaline({
@@ -30,6 +31,19 @@ export default defineValaxyConfig<UserThemeConfig>({
   //     pageview: true
   //   }),
   // ],
+=======
+  addons: [
+    addonComponents(),
+    addonWaline({
+      serverURL: "https://walineaa.vercel.app/",		// Waline服务链接
+      locale: {
+        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
+      },
+      comment: true,
+      pageview: true
+    }),
+  ],
+>>>>>>> parent of 4f3c257 (update valaxy)
 
   themeConfig: {
     banner: {
