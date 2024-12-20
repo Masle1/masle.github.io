@@ -29,9 +29,9 @@ aplayer: true
 ## 引言
 原本我是个不喜好阅读的人，但是在八月十三号，我主动购买了三本 ~~比较容易看的~~ 书。以及两只荧光笔
 是的，我打算开始培养我的阅读习惯。
-![心情复杂](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/xqfz.jpg)
+![心情复杂](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/xqfz.jpg)
 我羡慕那些一出口就是蕴含着无数真理的人，说是无数真理，不如说是一张口就觉得这个人有文化是读书人
-![废物](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/fw.jpg)
+![废物](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/fw.jpg)
 而让我~~冲动~~地想去培养这个兴趣爱好的人，是两位（~~一对~~）B站up主：[狂阿弥_](https://space.bilibili.com/3433092)以及[S呐_](https://space.bilibili.com/273139194)
 每次观看他们的视频，总是会有那种走进艺术博物馆的那种感觉。
 而这次书单，也是在[S呐_](https://space.bilibili.com/273139194)的书单分享中，挑选出自我感觉比较适合我观看的书籍。
@@ -47,12 +47,12 @@ aplayer: true
 *注：分享的顺序也是我的阅读顺序*
 
 ## 《朗格汉岛的午后》村上春树
-![朗格汉岛的午后](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/lghd.jpg)
+![朗格汉岛的午后](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/lghd.jpg)
 这是一本村上君的随笔集。 我自是没看过村上的小说，但是我在这本书中能感受到一位有着私人癖好的大叔。
 
 其中，之前流行的词语“小确幸”就来自村上君的这本书。但是你绝对想不到，村上君是用这个词来形容把抽屉塞满"underpants"时内心的满足和喜悦感。
 还有，村上君每次做出租车发现没零钱的时候，他基本都是让车停在化妆品店面前买一盒剃须膏来找零钱。至于它为什么不买其他的，只能说他对剃须膏情有独钟~
-![朗格汉岛的午后](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/lghd1.jpg)
+![朗格汉岛的午后](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/lghd1.jpg)
 > 这本随笔集的插画是安西水丸君所画的。村上君说“文章完全不需要让人佩服打动人————他们生下来就穿上‘水丸性’衣裳，洋洋自得地栖息在画的旁边。”
 要是让我来说明这种感觉，我会用自由散漫、放松来形容。
 
@@ -66,7 +66,7 @@ aplayer: true
 - “有时候我忽然心想，人生恐怕无非是钟表增多的过程”
 
 ## 《永恒的时光之旅》星野道夫
-![永恒的时光之旅](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/sgzl.jpg)
+![永恒的时光之旅](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/sgzl.jpg)
 
 > 星野道夫这个名字，在以前我并未听说过。直到读完了这本书，我觉得这个名字我永远忘不了。
 
@@ -74,7 +74,7 @@ aplayer: true
 
 他小时候就对阿拉斯加极度向往和好奇，他给希什马廖夫村村长写了一封信。
 半年后，他收到了村长的回信，远赴希什马廖夫村,前往极北之地与爱斯基摩家族生活三个月。
-![永恒的时光之旅](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/sgzl1.jpg)
+![永恒的时光之旅](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/sgzl1.jpg)
 他所拍摄的极北美景，以及生活在这极北之地的驯鹿、北极熊、海豹等所有动物。无不流露着星野道夫对大自然的敬佩
 星野道夫他在这片“纯净之地”寻找着大自然与人类之间的关系，追溯着阿拉斯加狩猎民族的起源。
 
@@ -90,7 +90,7 @@ aplayer: true
 - “刻印在图腾柱上的无数民间故事如梦一般，分不清哪些是人类的故事、哪些是动物的故事。”
 
 ## 《夜莺与玫瑰》王尔德
-![夜莺与玫瑰](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/yyymg.jpg)
+![夜莺与玫瑰](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/yyymg.jpg)
 这是王尔德的一本童话故事集，同时这也是王尔德写给儿子的睡前童话。
 这本书中有9个故事，童话中每一个故事都是悲伤的，袒露人性的。
 
@@ -113,4 +113,4 @@ aplayer: true
 ## 末
 这是一次收获颇丰的阅读体验，下次能闲下来读书也不知道会是什么时候。
 
-![我们会是这个时代的沙砾，藏在下一个时代的蛰伏中。](https://cdn.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/yj.jpg)
+![我们会是这个时代的沙砾，藏在下一个时代的蛰伏中。](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/summer-book-list/yj.jpg)

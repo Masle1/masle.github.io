@@ -72,7 +72,7 @@ tip: 友链加载中～如失败请刷新重试～
 网站名称：老哲的小客栈
 网站地址：https://masle.top/
 网站简介：一起向未来奔跑和冒险吧！
-网站头像：https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg
+网站头像：https://testingcf.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg
 自行添加我的链接后可以在评论区留下你的博客信息
 博客信息包括「链接 头像 名字 博客名称 介绍 」以及两个非必需的「颜色 邮箱」
 

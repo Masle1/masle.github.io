@@ -13,7 +13,6 @@ categories: 站长的小日记
 #     - 番剧
 # description: 关于我在高中一年的感受以及体会,本篇文章带有个人色彩，请谨慎阅读。
 aplayer: true
-cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E9%AB%98%E4%B8%AD%E7%94%9F%E6%B4%BB.jpg
 ---
 
 <!-- ![我也不知道怎么描述](https://cdn.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E9%AB%98%E4%B8%AD%E7%94%9F%E6%B4%BB.jpg) -->

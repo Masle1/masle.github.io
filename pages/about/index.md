@@ -2,7 +2,7 @@
 title: 关于我
 date: 2077-10-20
 type: me
-# cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E6%91%B8%E9%B1%BC%E6%97%A5%E8%AE%B0.jpg
+# cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/%E6%91%B8%E9%B1%BC%E6%97%A5%E8%AE%B0.jpg
 # coverWidth: 1200
 # coverHeight: 750
 description: 自我简介
@@ -31,7 +31,7 @@ aplayer: true
 是你在那朵玫瑰花上耗费的时间和经历，才使得他变得如此重要。
 「因为被这朵玫瑰花驯养，所以我们彼此互相需要 。」
 
-![prince](https://cdn.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/prince.jpg)
+![prince](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/prince.jpg)
 
 ## Socials
 - QQ:1848177368 （现在使用频率不是很高，偶尔会打开看看。毕竟一打开就是永远翻不完的~~线报群~~）

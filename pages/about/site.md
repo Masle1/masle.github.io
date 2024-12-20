@@ -28,7 +28,7 @@ description: 建立本博客主要是用来记录博主遇到的一些有趣的�
 </div>
 
 欢迎屏幕前的各位进入到这个网站，也欢迎给我留言和建议！
-![hao](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/good.jpg)
+![hao](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/good.jpg)
 
 
 <div class="danger">

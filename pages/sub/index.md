@@ -116,6 +116,8 @@ comments: true
 <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
 <!--End mc_embed_signup-->
 
+> 上面乱码时，可以点击此进入备用订阅页面进行订阅：[点击进入](https://mailchi.mp/1a49902d2ff0/masle)
+
 ## RSS订阅
 您还可以通过订阅本站的RSS来获取最新内容
 本站RSS地址：https://masle.top/atom.xml

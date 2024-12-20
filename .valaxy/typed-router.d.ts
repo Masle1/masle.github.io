@@ -39,6 +39,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/essay/set-up-forum': RouteRecordInfo<'/posts/essay/set-up-forum', '/posts/essay/set-up-forum', Record<never, never>, Record<never, never>>,
     '/posts/essay/summary-2021': RouteRecordInfo<'/posts/essay/summary-2021', '/posts/essay/summary-2021', Record<never, never>, Record<never, never>>,
     '/posts/essay/summary-2023': RouteRecordInfo<'/posts/essay/summary-2023', '/posts/essay/summary-2023', Record<never, never>, Record<never, never>>,
+    '/posts/essay/summary-2024': RouteRecordInfo<'/posts/essay/summary-2024', '/posts/essay/summary-2024', Record<never, never>, Record<never, never>>,
     '/posts/note/how-to-write-a-random-number-program': RouteRecordInfo<'/posts/note/how-to-write-a-random-number-program', '/posts/note/how-to-write-a-random-number-program', Record<never, never>, Record<never, never>>,
     '/posts/note/html-basic': RouteRecordInfo<'/posts/note/html-basic', '/posts/note/html-basic', Record<never, never>, Record<never, never>>,
     '/posts/note/html-website-deployment-platform': RouteRecordInfo<'/posts/note/html-website-deployment-platform', '/posts/note/html-website-deployment-platform', Record<never, never>, Record<never, never>>,

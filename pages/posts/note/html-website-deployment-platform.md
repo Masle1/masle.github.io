@@ -132,7 +132,7 @@ Vercel和Cloudflare同样支持直接使用github进行部署。
 也支持自动部署，而且每次部署完成后都会邮件提醒你。而且还支持自定义域名
 
 速度也相较Cloudflare快了许多，具体可以看图。
-![网站测速比较](https://cdn.jsdelivr.net/gh/masle1/p@main/img/html-website-deployment-platform/001.jpg)
+![网站测速比较](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/html-website-deployment-platform/001.jpg)
 
 > 至少一年内，我不会再更换部署平台了
 

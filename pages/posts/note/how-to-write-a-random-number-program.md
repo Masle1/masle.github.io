@@ -4,7 +4,7 @@ date: 2021-05-03 18:22:53
 updated: 2021-10-6 18:22:53
 tags: [python,学习]
 categories: 站长的小笔记
-# cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/%E6%8A%BD%E5%8F%B7%E6%95%B0%E7%A8%8B%E5%BA%8F/%E7%BC%96%E7%A8%8B%E5%9B%BE.png
+# cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/%E6%8A%BD%E5%8F%B7%E6%95%B0%E7%A8%8B%E5%BA%8F/%E7%BC%96%E7%A8%8B%E5%9B%BE.png
 # coverWidth: 1200
 # coverHeight: 750
 # description: 一个无聊时候用python写出来的简易抽号数的小程序。
@@ -35,9 +35,9 @@ while r:
     print('')
     num = random.randint(start,last)
 ```
-![vscode运行演示](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-write-a-random-number-program/%E4%BD%BF%E7%94%A8%E6%BC%94%E7%A4%BA.png)
+![vscode运行演示](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/how-to-write-a-random-number-program/%E4%BD%BF%E7%94%A8%E6%BC%94%E7%A4%BA.png)
 顺便打包成了exe文件，虽然只有十三行代码，但是导出为exe文件需要拖家带口打包。导致最后exe文件大小高达6.83m
-![exe运行演示](https://cdn.jsdelivr.net/gh/masle1/p@main/img/how-to-write-a-random-number-program/exe%E6%BC%94%E7%A4%BA.png)
+![exe运行演示](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/how-to-write-a-random-number-program/exe%E6%BC%94%E7%A4%BA.png)
 附上exe下载链接:https://cloud.189.cn/t/Y7VBrabiQbEz (访问码:8wbf)
 
 ## 第二版

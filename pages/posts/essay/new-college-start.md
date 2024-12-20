@@ -13,7 +13,7 @@ keywords:
     - 大学
     - 高考
 aplayer: true
-cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
+cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 ---
 
 距离上次更新博客已经过去一年多了，7月25号收到了大学录取通知书就想着是时候更新一下博客了。
@@ -32,7 +32,7 @@ cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 
 
 作为广东的新高考一卷考生，我当时的选科是物理化学政治。不少人听到这个选科都会感觉有点奇怪，怎么又文又理的。我其实也不太清楚我当时是怎么想的，可能是觉得我自己高三这一年会自觉背政治吧-0-事实上好像并没有。
-![心情复杂](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/xqfz.jpg)
+![心情复杂](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/xqfz.jpg)
 不过值得庆幸的是，高三这一年遇到了十分负责的科任老师们。也感谢这一年来各位老师对我的照顾。
 同时我最想感谢的是我的英语老师，我的英语高二升高三的时候只有七八十分。不过在英语老师系统式的复习下，考试基本能稳定在一百网上。今年的英语高考试卷我写完感觉很难，最后出来也有一百零多分。
 如果没有补齐这个短板估计最后高考也不会取得比较理想的成绩。
@@ -46,7 +46,7 @@ cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 
 好像说了这么多还没把我的高考成绩放出来-0-
 
-![高考成绩](https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/gkcj.jpg)
+![高考成绩](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/new-college-start/gkcj.jpg)
 
 高三那年定的目标刚好就是定的五百，收到成绩的时候我还有点怀疑。毕竟高二升高三那年的期末考我也才只有三百八九分。不过高兴归高兴，同时也把自己卡在了尴尬的分数。
 
@@ -69,12 +69,12 @@ cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 ---
 ### 录取
 不出意外，在出投档线的时候，我马上去对了一下，刚好就是珠海科技学院(下面简称珠科)。同时也在7月20号收到了珠科的录取短信，同时查询完专业刚好是自己的第一志愿。
-![录取通知短信](https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/lqdx.jpg)
+![录取通知短信](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/new-college-start/lqdx.jpg)
 在收到录取短信的五天后，也就是7月25号。我收到了珠科的录取通知书。~~（不对应该叫做录取通知盒）~~ 
 不得不说的是珠科的速度确实比其他学校快了不少。
-![丢人过程](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/jldr.jpg)
+![丢人过程](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/jldr.jpg)
 下面给你们看看珠科的录取通知大礼包
-![录取通知礼包](https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/tzsdlb.jpg)
+![录取通知礼包](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/new-college-start/tzsdlb.jpg)
 不得不说还是很豪华的，~~内心：学费也挺豪华的emmmm一年3.4w~~
 
 ---
@@ -83,7 +83,7 @@ cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 ## Hexo→Valaxy
 其实本来在去年过年的时候就想着把博客框架换成valaxy框架，然后顺便给博客挂个CDN。但是碍于云游君还没出Hexo转移到Valaxy的迁移教程，以及学业的压力就打消了这个想法。
 
-![废物](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/fw.jpg)
+![废物](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/fw.jpg)
 
 这段时间闲下来了，便把框架更换成[Valaxy](https://github.com/YunYouJun/valaxy)。~~主要发布一下这篇文章证明我还活着-0-~~
 
@@ -97,4 +97,4 @@ cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/new-college-start/dxtzs.jpg
 
 最后，谢谢你能看到这里。祝你生活愉快~   ~~也祝我~~
 
-![时间流逝](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/timepast.jpg)
+![时间流逝](https://testingcf.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/timepast.jpg)
