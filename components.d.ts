@@ -31,8 +31,6 @@ declare module 'vue' {
     ValaxyPagination: typeof import('./node_modules/valaxy/client/components/ValaxyPagination.vue')['default']
     ValaxySidebar: typeof import('./node_modules/valaxy/client/components/ValaxySidebar.vue')['default']
     ValaxySvgLogo: typeof import('./node_modules/valaxy/client/components/ValaxySvgLogo.vue')['default']
-    VCLiveTime: typeof import('./node_modules/valaxy-addon-components/components/VCLiveTime.vue')['default']
-    WalineClient: typeof import('./node_modules/valaxy-addon-waline/components/WalineClient.vue')['default']
     YunAlbum: typeof import('./node_modules/valaxy-theme-yun/components/YunAlbum.vue')['default']
     YunAlbumList: typeof import('./node_modules/valaxy-theme-yun/components/YunAlbumList.vue')['default']
     YunAlgoliaSearch: typeof import('./node_modules/valaxy-theme-yun/components/YunAlgoliaSearch.vue')['default']

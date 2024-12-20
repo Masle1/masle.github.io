@@ -12,14 +12,14 @@ keywords:
     - 启航
     - 年度总结
 aplayer: true
-cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/zg.jpg
+cover: https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/zg.jpg
 ---
 > 时间的连续性是不变的 它不被量化堆积 自然也不会说跨年时零点一过就有什么质变 我猜大概也是和往常一样相同的一天 爱你的人一样在身边
 
 今年真的过的好快
 
 <!-- more -->
-![xy](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/hsy.jpg)
+![xy](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/hsy.jpg)
 
 <meting-js
  id="1975741303"
@@ -51,22 +51,22 @@ cover: https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-
 
 ### 网易云音乐
 因为今年听的歌都是从音乐云盘导入到歌单中的，所以听了很多周杰伦的歌都没有记录。感觉这次的网易云年度总结今年对我来说不够准确了。
-![wy1](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/tgzl.jpg)
+![wy1](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/tgzl.jpg)
 另类摇滚，可能是今年年初的时候一直听二手玫瑰的歌导致的-0-  他们的歌还是得看现场视频得才精彩！
-![wy2](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/tgph.jpg)
+![wy2](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/tgph.jpg)
 我看到这个榜单得时候楞是呆住了一下，怎么混进去了个军训合唱的歌曲光荣与梦想。感觉如果今年听的周杰伦的歌如果有记录，估计前10全是周杰伦的歌了。
 
 ### 抖音
 
 大学生的水课一多，天天都在刷抖音-0- 这还只是下半年的量。上半年因为高考把抖音给卸载了。
-![douyin](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/douyin.jpg)
+![douyin](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/douyin.jpg)
 
 ### 哔哩哔哩
 
 b站应该就是上半年是看下饭视频和复习视频比较多。 下半年就变成一个学习软件了，每次高数都得看宋浩。
-![duck](https://masle.gitee.io/maslebloglib/picture/biaoqing/fw.jpg)
-![bzsj](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/bzsj.jpg)
-![gdsx](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/gdsx.jpg)
+![duck](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/fw.jpg)
+![bzsj](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/bzsj.jpg)
+![gdsx](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/gdsx.jpg)
 
 ## 2023 年
 
@@ -89,8 +89,8 @@ b站应该就是上半年是看下饭视频和复习视频比较多。 下半年
 - 6月：高考结束了，考完试的那天有种不真实的感觉，有一种目标突然丢失了的感觉。休息了一周后，就去报考了驾照。最后发现每天基本天天都要出去练会车，所以没有时间出去旅游或者打工。同时月底高考成绩也出来了，这时候我才意识到夏季高考志愿填报是一项大工程-0-
 ### 7月
 这个月基本就是早起练车，每天早上六点就出发去练科二了。也就在这个月底，拿到了属于我的驾照。总共历时四十天左右。但是实际练车的时间估计也就十五天左右吧，科一在家自己看题目，科二考完后就一直宅家里等科一过30填后才能报考科目三，这段时间没事就在家里看科目三的路线视频，科目三又是预约后练了两三天就直接去考了。虽然是c1驾照，但是我发现我拿到驾照后都没开过手动挡的车。如果让我自己开手动挡车上路的话我估计还是不敢的。
-![科二](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/jzke.jpg)
-![驾照](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/jiazhao.jpg)
+![科二](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/jzke.jpg)
+![驾照](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/jiazhao.jpg)
 在志愿填完上报后，一直在等待录取结果。虽然心里已经大概知道会录取到哪里了。
 ### 8月
 录取结果正式出来了，属于我预料之中。也成功的录取到了自己想要的专业。
@@ -99,46 +99,46 @@ b站应该就是上半年是看下饭视频和复习视频比较多。 下半年
 去菜市场的路上，看见海上的渔船都亮着开着一盏盏非常亮的灯，表哥说这些都是捉鱿鱼的渔船，等一下就是去买他们刚捉回来的鱿鱼。我们在菜市场的一个拐角处，看到了这新鲜捕捞上来的鱿鱼，我第一次知道原来新鲜的鱿鱼，它身体内的墨水会在身体表面一闪一闪的变幻着。那晚买回去后，马上煮熟来吃了，非常有嚼劲，但是里面有好多的墨水，我不敢吃太多。
 
 我有时候还挺感叹动物的各种功能和结构的，为什么我可以控制我自己的手，他又是这么接受到我的指令的。感觉有一种不太实际的感觉。
-![na1](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/nanao1.jpg)
-![na2](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/nanao2.jpg)
+![na1](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/nanao1.jpg)
+![na2](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/nanao2.jpg)
 那几天游玩的时候，我也开了好几次的车。开车去菜市场买海鲜，返程的时候又开了三十多公里的路程。菜市场这种路段的交通情况是真的复杂，还好之前在家那边也开过好几次菜市场的那种路段，这种路段一般减速观察慢慢开就行了-0-。
 ### 9月
 这个月开学了，也开始忙碌了起来。和家里人带着行李开车来到了学校，在他们离开后确实感觉有种不真实的感觉。一种没有目标，无所事事的空虚感。开学后的军训生活真的很累，每天早上六点多起床，晚上十二点才能闲下来睡觉。这段时间即充实但是又非常累的，我参加了我们学院的军训合唱团，每晚都比别人多训练个一个多小时再回到宿舍休息。回到宿舍往往都快到晚上十一点的门禁时间了。洗漱完晾完衣服后就拖着疲惫的身体睡觉了。还好最后还是取得了三等奖不错的成绩，一切付出都是值得的哈哈。
-![jxjy](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/jxjy.jpg)
+![jxjy](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/jxjy.jpg)
 军训结营后，就迎来了国庆假期。由于没抢到高铁票，最后我只能做同乡会的大巴回家。在做同乡会大巴前，就有好哥们和我说，国庆坐大巴回去可能会堵车非常严重。好吧事实确实是这样，原本七八个小时的路程，我活生生做了二十三个小时才到家。真的非常崩溃好吧，那天晚上还在高速收费站过夜了，因为高速上大巴2-5点钟是禁行的。
-![gsgy](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/gsgy.jpg)
+![gsgy](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/gsgy.jpg)
 
 ### 10月
 国庆假期还是挺漫长的，军训完回到家。发现每个亲戚都觉得我去没几天就黑了好多哈哈。今年的中秋假期拜月娘感觉没有小时候那么的有感觉了，也许是长大了烦恼慢慢的也多了起来吧，开始羡慕小孩子们无忧无虑的时光了。不过现在的小孩好像也不像以前那样可以随心所欲玩耍，总是有各种各样的兴趣班和培训班。
-![duck](https://masle.gitee.io/maslebloglib/picture/biaoqing/duck.gif)
+![duck](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/duck.gif)
 这次国庆假期又在家门口吃了烧烤，想起去年国庆时候也在家里阳台上吃了烧烤，这也是算是一种延续吧。每每这个时候都是小孩子们最开心的时候QWQ 这段时间还去看了亲戚家的鱼塘捕鱼。
-![buyu](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/buyu.jpg)
+![buyu](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/buyu.jpg)
 这次假期还和好哥们一起出去游泳了，好吧，只有我一个人不会游。都是他们在旁边带着我游的，其中有一个暑假去当了一个小区泳池的救护员，我让他带我体验了一下被他拖着游走的感觉-0-
 这个月应该算是大学生活的正式开始吧，九月份那会从报道开始就一直都是军训-0- 由于不用军训了，空闲时间也就变多了，可以多去尝试学校里面各种各样的吃的。
 很幸运，我通过了校青协和电协的面试，成功的进入到了想进的协会。参加了破冰会和各种各样的例会。
-![xhgzz](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/xiehui.jpg)
+![xhgzz](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/xiehui.jpg)
 学习了c语言入门，用嘉立创走线，打出了第一块pcb。
-![pcb](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/pcb.jpg)
+![pcb](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/pcb.jpg)
 
 ### 11月
 这个月参加了校青协的见面大会，校青协的氛围真的好好! 
 我发现电脑512g是真的不够用了，所以趁着双十一就购入了一块1t的硬盘。本来想着拿去售后加装的，但是要跑到市区那边才有售后点。所以就在宿舍自己捣鼓捣鼓就装上了。还好没有变砖哈哈哈。
-![hgt](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/hgt.jpg)
+![hgt](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/hgt.jpg)
 这个月学校还举行了校运会，放了三四天的假期。具体几天我也忘记了。我发现我高中三年一次校运会都没有欸。不过我校运会一个项目也没报，所以就有时间出去学校外面逛逛了。~~这月电协每周都有培训会，所以平常都没什么时间出去溜达。~~  
 然后就跑去了学校附近的金湖公园逛了逛，我看地图上显示是一个非常大的湖泊，然后有一条路可以从中间穿过那个湖泊，结果去了之后发现中间那条路封掉了，只能在那湖周边逛一逛了。不过那边的风景还是不错的。
-![sst](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/sst.jpg)
-<!-- ![zg](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/zg.jpg) -->
-![jsq](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/jsq.jpg)
+![sst](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/sst.jpg)
+<!-- ![zg](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/zg.jpg) -->
+![jsq](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/jsq.jpg)
 
 ### 12月
 我发现这个十二月，好像有种变成吃货的感觉。每次闲下来就是出去找吃的牛肉火锅，羊肉火锅，烧烤，粥底火锅。学校门口就是小吃街，没事也会出去逛逛找吃的。
-![ymxy](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/voyage-2023/ymxy.jpg)
+![ymxy](https://cdn.jsdelivr.net/gh/masle1/p@main/img/voyage-2023/ymxy.jpg)
 这个月参加了[国际志愿者日](https://mp.weixin.qq.com/s/rhvFz3TWx89Gns524GJ7Hg)推文的排版任务，当时用ps软件制作了好几天。用ps排版，要注意边距字体大小等等，真的非常非常麻烦。稍微有点调整可能就得从头再来。还好最后还是顺利完成了任务，收获颇丰。
 
 这个月底去看了圆明新园，和北山牌坊以及旁边的华发商都。感觉很久没有逛过这种大商场了，上次逛商场还是当时国庆回汕头的时候和朋友一起出去逛的。珠海这边的环境还是很不错的，果然是宜居城市。但是学校近海，风大又潮湿，住起来可能就不是特别的舒服了。
 
 话说今年十二月底还这么热，这几天我都是热到穿成短袖了。我记得去年没这么热的啊-0-
-![xianzhuo](https://masle.gitee.io/maslebloglib/picture/biaoqing/xianzhuo.jpg)
+![xianzhuo](https://cdn.jsdelivr.net/gh/masle1/p@main/img/biaoqing/xianzhuo.jpg)
 
 
 ## 后话

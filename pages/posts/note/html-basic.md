@@ -23,7 +23,7 @@ keywords:
 
 <!-- more -->
 
-![最终成品](https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/CatPhotoApp.png)
+![最终成品](https://cdn.jsdelivr.net/gh/masle1/p@main/img/html-basic/CatPhotoApp.png)
 
 ## HTML
 
