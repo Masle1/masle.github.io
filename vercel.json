@@ -3,9 +3,9 @@
     {
       "source": "/:path*",
       "destination": "/index.html"
+      
     }
   ]
+  
 }
-{
-  "cleanUrls": true
-}
+
