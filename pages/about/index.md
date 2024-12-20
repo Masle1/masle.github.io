@@ -11,8 +11,7 @@ aplayer: true
 
 > ## Me
 「静以制动，明以破军」
-一名大一电子信息科学与技术的学生，~~还在拼搏（摸鱼）的路上~~ 
-~~正在学习c语言~~
+一名大二电子信息科学与技术的学生，~~还在拼搏（摸鱼）的路上~~ 
 
 <!-- <div class="text-center">
     <div class="site-author-avatar">
