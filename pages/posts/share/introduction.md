@@ -6,7 +6,7 @@ tags: 指南
 categories: 站长的小分享 
 top: 100
 # description:
-aplayer: true
+aplayer: false
 ---
 
 ## 站内链接直达
@@ -18,12 +18,12 @@ aplayer: true
 
 > 评论区请搭配梯子使用，如遇图片无法加载，网站卡等问题挂梯子皆可解决
 
-<meting-js
+<!-- <meting-js
  id="22712634"
  server="netease"
  type="song"
  theme="#C20C0C">
-</meting-js>
+</meting-js> -->
 
 > 感谢你点进我的小站，你一定也是个有趣的灵魂吧！同时也欢迎你订阅我的博客,[点击前往订阅页面](https://masle.top/sub/)
 
