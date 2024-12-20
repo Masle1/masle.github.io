@@ -31,6 +31,9 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm i
 
+      - name: 📦 Install vue
+        run: npm install vue
+
       - name: 🌌 Build Valaxy Blog
         run: npm run build
 
