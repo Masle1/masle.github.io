@@ -91,7 +91,7 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/backgroun
 
 音乐确实是一个很神奇的东西，每次戴上耳机沉浸在音乐里，总能让我短暂脱离现实，忘掉烦恼。
 ![0bat](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/0bat.jpg)
-话说，我发现近些年来的压力测量的数据越来越低了，一度我怀疑是这个手表测量不准确，知道前段时间期末周复习，看见压力逐渐上升，才相信手表并没有坏哈哈哈。可能是心态上有了转变吧，平平淡淡的
+话说，我发现近些年来的压力测量的数据越来越低了，一度我怀疑是这个手表测量不准确，直到前段时间期末周复习，看见压力逐渐上升，才相信手表并没有坏哈哈哈。可能是心态上有了转变吧，平平淡淡的
 ![stress](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/yali.jpg)
 
 ## 2024年小记
@@ -121,7 +121,7 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/backgroun
 
 这个月还在珠海博物馆看到了圆明园的兽首，能看到原件还是十分震撼的，这次一共展出了七个，牛虎猴猪都是原件，鼠马兔是仿品，做工都非常精细。放个假九宫格在这里，~~图片太多了加载不过来了~~
 ![shoushou](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/shoushou.jpg)
-这个月着手开始学习stm32,其实到现在都没学多少，这就是拖延症的威力吗。因为电协培训需要做一个东西出来，我们按照开源项目的平衡小车购买元器件，组装烧录。是的，烧录程序也是开源项目写好的。所以我们基本就之扮演了个焊机组装的角色，组装的还特别丑哈哈哈，不过也算是成功让他动了一段时间。    ~~是的，它过没多久就已经烧掉了，在这里给他上两柱香🙏~~
+这个月着手开始学习stm32,其实到现在都没学多少，这就是拖延症的威力吗。因为电协培训需要做一个东西出来，我们按照开源项目的平衡小车购买元器件，组装烧录。是的，烧录程序也是开源项目写好的。所以我们基本就只扮演了个焊机组装的角色，组装的还特别丑哈哈哈，不过也算是成功让他动了一段时间。    ~~是的，它过没多久就已经烧掉了，在这里给他上两柱香🙏~~
 ![banlancecar](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/banlancecar.gif)
 
 ### 4月
@@ -187,7 +187,7 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/backgroun
 ### 12月
 上半月有两个周末是天天在实验室焊课程项目的，有光感的寻迹小车,还有个长得跟绿苹果一样的小音箱，里面我觉得应该是220v电压变压器最实用了。
 ![battery](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/220v.jpg)
-这个月还参加了入党积极分子培训，~~但是结课考试的时候忘记考了！！！🤯~~ 忘记考了之能认栽了，真的给自己气笑了-0-
+这个月还参加了入党积极分子培训，~~但是结课考试的时候忘记考了！！！🤯~~ 忘记考了只能认栽了，真的给自己气笑了-0-
 这是在学校散步的时候用唯卓仕56 1.7手持拍完裁的，希望下次是用的长焦！下次可以对比一下，虽然被我上传到这里的图片都被我压缩过了-0-
 ![yueliang](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/yueliang.jpg)
 噢，这个月还去当了一回保安哈哈哈，其实是为了拍横琴的反诈短视频，但是没有民警的衣服只有保安的衣服就只能化身保安了哈哈哈哈
