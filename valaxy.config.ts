@@ -30,7 +30,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addons: [
      addonWaline({
        // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-       serverURL: 'https://walinea.vercel.app/',
+       serverURL: 'https://waline.masle.top/',
      }),
   ],
 
@@ -62,17 +62,17 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-open-arm-line',
         color: 'dodgerblue',
       },
-      // {
-      //   name: '网站监视器',
-      //   url: 'https://status.masle.top/',
-      //   icon: 'i-ri-computer-line',
-      //   color: '&#xEBCA;',
-      // },
+      {
+        name: '博客订阅及留言板',
+        url: '/sub/',
+        icon: 'i-ri-notification-2-line',
+        color: 'dodgerblue',
+      },
     ],
     bg_image: {
       enable: true,
-      url: "https://cdn.jsdelivr.net/gh/masle1/masle.github.io@main/pages/background.jpg",	// 白日模式背景
-      dark: "https://masle.gitee.io/maslebloglib/picture/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/dark%20.jpg",	// 夜间模式背景
+      url: "https://testingcf.jsdelivr.net/gh/masle1/masle.github.io@main/pages/background.jpg",	// 白日模式背景
+      dark: "",	// 夜间模式背景
     },
     footer: {
       since: 2021,

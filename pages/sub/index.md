@@ -34,7 +34,7 @@ comments: true
     /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
     #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
     #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-    #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+    #mc_embed_signup input {border: 1px solidrgb(70, 121, 141); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
     #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
     #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
     #mc_embed_signup input:focus {border-color:#333;}
@@ -75,15 +75,15 @@ comments: true
     #mc_embed_signup #num-subscribers {font-size:1.1em;}
     #mc_embed_signup #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
 
-    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+    #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255, 173, 173, 0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
     #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
 </style>
 <div id="mc_embed_signup">
-<form action="https://top.us20.list-manage.com/subscribe/post?u=7d796026405c4a3f0e55238de&amp;id=75d9a74042" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="https://top.us20.list-manage.com/sbirthdayubscribe/post?u=7d796026405c4a3f0e55238de&amp;id=75d9a74042" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>博客文章更新通知</h2>
     <h6>请按照要求填写信息，然后提交订阅。如果填写生日，生日当天还会收到生日祝福噢~</h6>
-<div class="indicates-required"><span class="asterisk">*</span> 必填</div>
+<div class="indicates-required"><span class="asterisk">*</span> 符号为必填</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">电子邮件地址  <span class="asterisk">*</span>
 </label>
