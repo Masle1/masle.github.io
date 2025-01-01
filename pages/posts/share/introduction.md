@@ -11,7 +11,6 @@ aplayer: false
 ## 站内链接直达
 [About Me丨关于我](/about/) <br />
 [About Site丨关于站点](/about/site/) <br />
-[Posts丨博客文章](/posts/)<br />
 [Friend Links丨我和我的小伙伴们](/links/) <br />
 [Subccribe丨订阅博客及留言板](/sub/) <br />
 为了保证网页的加载速度，图片均经过压缩，可能会有点模糊。
