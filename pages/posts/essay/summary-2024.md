@@ -183,6 +183,8 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/backgroun
 ![boat](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/boat.jpg)
 ![car](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/car.jpg)
 这个月荷包鼓鼓队一起两天速通新文科，最后拿到了金奖！非常强的实力。 报了挑战杯项目可惜最后没有进入校终审，大家都很努力，下次继续加油！！！
+噢，这个月还收到了学校发的奖学金，速速购入新镜头哈哈哈！！
+![jxj](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/jxj.jpg)
 
 ### 12月
 上半月有两个周末是天天在实验室焊课程项目的，有光感的寻迹小车,还有个长得跟绿苹果一样的小音箱，里面我觉得应该是220v电压变压器最实用了。
