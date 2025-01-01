@@ -104,6 +104,13 @@ export default defineSiteConfig({
     enable: true,
     type: 'fuse',
   },
+  comment: {
+    enable: true,
+  },
+
+  statistics: {
+    enable: true,
+  },
   sponsor: {
     enable: false,
     title: '我很可爱，请给我钱！',
