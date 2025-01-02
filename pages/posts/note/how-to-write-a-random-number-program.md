@@ -12,6 +12,7 @@ hide: true
 keywords: 
   - python
   - 随机抽号
+password: sadfgdfsgfdhgfds
 ---
 
 > 这也是我第一次自己写程序，所以后续这个可能会根据我的认知来不断改进这个程序。
