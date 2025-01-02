@@ -74,43 +74,43 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2021/voyage.jp
 
 > 这一年，我写了什么东西？
 
-**[My First Post](https://masle.top/note/my-first-post/)**
+**[My First Post](https://masle.top/posts/note/my-first-post/)**
 
 写了一些关于建立博客的笔记，之后也没有怎么更新了
 
-**[win10精简版纯净系统 专业版20h2](https://masle.top/share/win10-20h2/)**
+**[win10精简版纯净系统 专业版20h2](https://masle.top/posts/share/win10-20h2/)**
 
 今年封装的一个系统，我现在用的系统就是这个
 
-**[win10精简版纯净系统 专业版20h2 第二篇](https://masle.top/share/win10-20h2-2/)**
+**[win10精简版纯净系统 专业版20h2 第二篇](https://masle.top/posts/share/win10-20h2-2/)**
 
 由于上一个文件太大，所以专门弄了个无万能驱动版的。
 
-**[关于使用Pe安装系统的图文教程，适用于新手小白](https://masle.top/share/how-to-install-windows-by-pe/)**
+**[关于使用Pe安装系统的图文教程，适用于新手小白](https://masle.top/posts/share/how-to-install-windows-by-pe/)**
 
 写的还算挺详细的，只要一步步跟着教程一定能成功~
 
-**[学python"第一天"，写一个抽号数程序](https://masle.top/note/how-to-write-a-random-number-program/)**
+**[学python"第一天"，写一个抽号数程序](https://masle.top/posts/note/how-to-write-a-random-number-program/)**
 
 那一段时间，班里老师经常会抽号数来提问同学，所以就用仅学了一天的知识去写了这个啥也不是的程序。
 
-**[关于我的高一生活](https://masle.top/diary/about-my-senior-life/)**
+**[关于我的高一生活](https://masle.top/posts/diary/about-my-senior-life/)**
 
 现在让我重新看这篇文章的话，我肯定会忍不住删掉。
 
-**[我的夏日书单](https://masle.top/diary/summer-book-list/)**
+**[我的夏日书单](https://masle.top/posts/diary/summer-book-list)**
 
 暑假无聊时候读的几本书，那也是个不错的体验。
 
-**[您的信到了！ -“影视推荐”](https://masle.top/share/a-letter-for-you/)**
+**[您的信到了！ -“影视推荐”](https://masle.top/posts/share/a-letter-for-you/)**
 
 这个标题也很玄乎，其实就是影视推荐啦~
 
-**[静态网站部署平台之碰壁记](https://masle.top/note/html-website-deployment-platform/)**
+**[静态网站部署平台之碰壁记](https://masle.top/posts/note/html-website-deployment-platform/)**
 
 用了半年多的博客，大概对于静态网站部署平台的使用进行总结。防止别人像我一样走更多的弯路。
 
-**[一个论坛的诞生](https://masle.top/essay/set-up-forum/)**  已停运
+**[一个论坛的诞生](https://masle.top/posts/essay/set-up-forum/)**  已停运
 
 其实这个不能算是一个论坛，只能算是一个文章中转站。当时看见Volantis这个主题好看，就心血来潮去搭建了一个。结果现在已经一个月没有去维护了，如果你想要这个站点的话，可以联系我。
 
