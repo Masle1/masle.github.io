@@ -28,7 +28,7 @@ links:
     name: Defeated-Person
     blog: Defeated*Person
     desc: 一个普通学生创作者
-    color: "#2C84D0" 
+    color: "#1d825f" 
     email: 
   - url: https://misakishiki.site/
     avatar: https://misakishiki.site/aquced.png
@@ -42,6 +42,13 @@ links:
     blog: 运维开发绿皮书
     color: "#FD82EE"
     desc: 放置运维开发笔记、搜集、摘录、实践，保持好奇心，看文需谨慎，后果很严重！
+  - url: https://blog.horonlee.com
+    avatar: https://bu.dusays.com/2023/02/05/63dfc7f2ced91.png
+    name: 皓然
+    blog: 皓然小站
+    desc: 分享生活和技术的点滴
+    email: horonlee@firefox.com
+    color: "#5CACEE"
 
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
@@ -68,12 +75,18 @@ tip: 友链加载中～如失败请刷新重试～
   <summary>交换友链</summary>
 
 欢迎交换友链，需要请联系1848177368@qq.com 或者左边QQ小图标联系我的QQ~~
-- 名称：Masle老哲
-- 网站名称：老哲的小客栈
-- 网站地址：https://masle.top/
-- 网站简介：一起向未来奔跑和冒险吧！
-- 网站头像：https://testingcf.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg
+
+```
+  - url: https://masle.top/
+    avatar: https://testingcf.jsdelivr.net/gh/masle1/masle.github.io@main/pages/img/Masle.1.jpg
+    name: Masle老哲
+    blog: 老哲的小客栈
+    desc: 一起向未来奔跑和冒险吧！
+    email: Masle04@outlook.com
+    color: "#1d825f"
+```
 自行添加我的链接后可以在评论区留下你的博客信息
 博客信息包括「链接 头像 名字 博客名称 介绍 」以及两个非必需的「颜色 邮箱」
+
 
 </details>
