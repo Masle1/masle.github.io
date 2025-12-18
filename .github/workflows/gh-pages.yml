@@ -32,7 +32,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm' # 开启 pnpm 缓存，大幅提升安装速度
 
-      # 不再需要 rm -rf node_modules，Actions 运行环境默认是干净的
+    
+      - name: 📦 clean Dependencies
+        run: rm -rf node_modules
       
       - name: 📦 Install Dependencies
         run: pnpm install --no-frozen-lockfile
