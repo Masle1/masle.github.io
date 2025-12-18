@@ -11,34 +11,36 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [lts/*]
         os: [ubuntu-latest]
       fail-fast: false
+steps:
+      - uses: actions/checkout@v3 # 建议升级到 v3
 
-    steps:
-      - uses: actions/checkout@v2
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8 # 或者指定你本地使用的版本
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3 # 建议升级到 v3
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: https://registry.npmjs.org/
+          cache: 'pnpm' # 开启 pnpm 缓存，大幅提升安装速度
 
-      - name: 📦 clean Dependencies
-        run: rm -rf node_modules
-
+      # 不再需要 rm -rf node_modules，Actions 运行环境默认是干净的
+      
       - name: 📦 Install Dependencies
-        run: npm i
+        run: pnpm install --no-frozen-lockfile
 
-      - name: 📦 Install vue
-        run: npm install vue
-
+      # 不再需要单独安装 vue，因为 pnpm install 会根据 package.json 自动处理
+      
       - name: 🌌 Build Valaxy Blog
-        run: npm run build
+        run: pnpm run build
 
       - name: 🪤 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

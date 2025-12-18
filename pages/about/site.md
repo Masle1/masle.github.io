@@ -42,11 +42,19 @@ description: 建立本博客主要是用来记录博主遇到的一些有趣的�
 这里用来记录站点的发展历程
 
 ## 发展历程
+::: details 2025
+
+## 2025-12-18
+升级[Valaxy框架](https://github.com/YunYouJun/valaxy)和[Yun](git+https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun.git)主题至V0.26.10,维护邮箱订阅页面接口
+
+:::
+
+---
 
 ::: details 2024
 
 ## 2024-12-19
-由于[Gitee](https://gitee.com/)关闭静态网站托管业务,已将图片全部迁移至github仓库.同时升级[Valaxy框架](https://github.com/YunYouJun/valaxy)至V0.22.4,Waline评论系统至V3.4.2
+由于[Gitee](https://gitee.com/)关闭静态网站托管业务,已将图片全部迁移至github仓库.同时升级[Valaxy框架](https://github.com/YunYouJun/valaxy)至V0.22.4,Waline评论系统升级至V3.4.1
 
 :::
 

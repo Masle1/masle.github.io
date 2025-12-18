@@ -40,7 +40,7 @@ aplayer: true
 - 邮箱：Masle04@outlook.com  (qq邮箱也用的很多！ 1848177368@qq.com)
 - 网易云音乐：[Maslea](https://music.163.com/#/user/home?id=550725539) （用了四年的播放器，很多小众歌手我还是很喜欢的~）
 - 哔哩哔哩： [Masle_](https://space.bilibili.com/389049232) 
-- 酷安：[Masle](https://www.coolapk.com/u/3260871) （在酷安多多少少还是可以学到点东西的）
+- 酷安：[Masle](https://www.coolapk.com/u/3260871) 
 
 ## 兴趣爱好
 本人属于是什么东西都只学了皮毛，没有一项学得稍微深入一点的。不过嘛，自己开心就好啦~
@@ -48,5 +48,5 @@ aplayer: true
 - 摄影和吉他应该算得上是两大爱好
 ![nioknc](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/nikoncc.jpg)
 - 联机网游（主要是联机的游戏和朋友一起玩就很快乐，此刻特指无畏契约）
-- 羽毛球、匹克球、还有下学期马上要学习的网球！
+- 羽毛球、匹克球、网球
 

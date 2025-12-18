@@ -19,7 +19,7 @@ export default defineSiteConfig({
   mediumZoom: { enable: true },
   social: [
     {
-      name: 'RSS',
+      name: 'Atom',
       link: '/atom.xml',
       icon: 'i-ri-rss-line',
       color: 'orange',

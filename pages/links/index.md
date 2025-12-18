@@ -7,15 +7,10 @@ date: 2021-04-10 16:34:13
 keywords: 链接
 description: 村上春树说过:“如果一直想见谁,肯定迟早会见到.”但是他还说过:“所见之日乃是终止之时。” 可他还说过:“总之岁月漫长，然而值得等待。”
 aplayer: true
+time_warning: false
 # aside: true
 # toc: false
 links:
-  - url: https://kiri606.vercel.app/
-    avatar: https://kiri606.vercel.app/img/avatar.jpg
-    name: Kiri
-    blog: 不穿秋裤的小林
-    color: "#FF00CC" 
-    desc: 永远年轻永远热泪盈眶
   - url: https://jonnys.top/
     avatar: https://jonnys.top/img/avatar.png
     name: Jonny
@@ -23,13 +18,6 @@ links:
     desc: όνειροdya, fόgudiκολμο, Aix!
     color: "#207A5F" 
     email: jiangling2004@outlook.com
-  - url: https://www.dp712.com/ 
-    avatar: https://dl.dp712.com/www/uploads/2024/08/20240827140308810-docker-logo.png
-    name: Defeated-Person
-    blog: Defeated*Person
-    desc: 一个普通学生创作者
-    color: "#1d825f" 
-    email: 
   - url: https://misakishiki.site/
     avatar: https://misakishiki.site/aquced.png
     name: 栗木aquced
@@ -49,6 +37,19 @@ links:
     desc: 分享生活和技术的点滴
     email: horonlee@firefox.com
     color: "#5CACEE"
+  - url: https://kiri606.vercel.app/
+    avatar: https://kiri606.vercel.app/img/avatar.jpg
+    name: Kiri
+    blog: 不穿秋裤的小林
+    color: "#FF00CC" 
+    desc: 永远年轻永远热泪盈眶
+  - url: https://re.xcdream.com/ 
+    avatar: https://dl.dp712.com/www/uploads/2024/08/20240827140308810-docker-logo.png
+    name: Defeated-Person
+    blog: Defeated*Person
+    desc: 一个普通学生创作者
+    color: "#1d825f" 
+    email: 
 
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
