@@ -177,6 +177,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/essay/summary-2025': RouteRecordInfo<
+      '/posts/essay/summary-2025',
+      '/posts/essay/summary-2025',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/note/how-to-write-a-random-number-program': RouteRecordInfo<
       '/posts/note/how-to-write-a-random-number-program',
       '/posts/note/how-to-write-a-random-number-program',
@@ -396,6 +403,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/essay/summary-2024.md': {
       routes:
         | '/posts/essay/summary-2024'
+      views:
+        | never
+    }
+    'pages/posts/essay/summary-2025.md': {
+      routes:
+        | '/posts/essay/summary-2025'
       views:
         | never
     }

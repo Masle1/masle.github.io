@@ -36,7 +36,18 @@ export default defineValaxyConfig<UserThemeConfig>({
   ],
 
 
-  unocss: { safelist },
+  unocss: {
+    shortcuts: [
+      {
+        'bg-base': 'bg-white dark:bg-black',
+        'color-base': 'text-black dark:text-white',
+        'border-base': 'border-[#8884]',
+      },
+    ],
+    rules: [
+      ['theme-text', { color: '#4b4b4b' }],
+    ],
+  },
 })
 
 

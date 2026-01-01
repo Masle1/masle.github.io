@@ -12,5 +12,6 @@
     "*.css": "postcss"
   },
   "editor.formatOnSave": false,
-  "svg.preview.background": "editor"
+  "svg.preview.background": "editor",
+  "idf.pythonInstallPath": "E:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe"
 }

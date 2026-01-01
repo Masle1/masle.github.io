@@ -11,7 +11,8 @@ aplayer: true
 
 > ## Me
 「静以制动，明以破军」
-一名大二电子信息科学与技术的学生，~~还在拼搏（摸鱼）的路上~~ 
+一名大三电子信息科学与技术的学生，~~还在拼搏（摸鱼）的路上~~ 
+
 
 特点：反应弧超长
 
@@ -36,17 +37,17 @@ aplayer: true
 ![prince](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/prince.jpg)
 
 ## Socials
-- QQ:1848177368 （现在使用频率不是很高，偶尔会打开看看。毕竟一打开就是永远翻不完的群）
 - 邮箱：Masle04@outlook.com  (qq邮箱也用的很多！ 1848177368@qq.com)
-- 网易云音乐：[Maslea](https://music.163.com/#/user/home?id=550725539) （用了四年的播放器，很多小众歌手我还是很喜欢的~）
+- 网易云音乐：[Maslea](https://music.163.com/#/user/home?id=550725539)
 - 哔哩哔哩： [Masle_](https://space.bilibili.com/389049232) 
 - 酷安：[Masle](https://www.coolapk.com/u/3260871) 
 
 ## 兴趣爱好
 本人属于是什么东西都只学了皮毛，没有一项学得稍微深入一点的。不过嘛，自己开心就好啦~
 
-- 摄影和吉他应该算得上是两大爱好
+- 摄影（此刻望向干燥箱里面积灰的相机）
 ![nioknc](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/biaoqing/nikoncc.jpg)
-- 联机网游（主要是联机的游戏和朋友一起玩就很快乐，此刻特指无畏契约）
-- 羽毛球、匹克球、网球
+- 吉他（三品战士自娱自乐来了）
+- 联机网游（主要是联机的游戏和朋友一起玩就很快乐）
+- 羽毛球、匹克球、网球（其实是大学选过这几门体育课，但是还是很喜欢这几项运动的，好久没运动了，已变成懒人一个）
 

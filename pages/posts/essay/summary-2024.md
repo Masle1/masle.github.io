@@ -28,6 +28,7 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2024/backgroun
  theme="#C20C0C">
 </meting-js>
 
+> 2026.1.1突然发现幸存者这首歌，只能这里只能听三十秒，原来是需要会员收听了。
 
 ## 前言
 我也没想到，今年居然整整一年没有写过一篇文章哈哈哈~  想了一下觉得还是写一下年度总结吧 ~~(总不能一年一篇文章也不发吧)~~ 
