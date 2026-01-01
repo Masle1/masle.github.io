@@ -292,7 +292,9 @@ cover: https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2025/backgroud
 ![rtos](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2025/rtos.jpg)
 
 ### 12月
-这个月课程也都陆陆续续结课了，也要进入复习周，基本都在准备考试什么的。
+这个月课程也都陆陆续续结课了，也要进入复习周，基本都在准备考试什么的。上学年也是依旧二等奖学金-0- 比去年多了个文体活动，接下来新学年应该基本就没参加什么活动了。
+
+![jz](https://testingcf.jsdelivr.net/gh/masle1/p@main/img/voyage-2025/jz.jpg)
 
 虽然要考试了，抽空放松一下还是好的，刚结课19号就去看犬儒的livehouse，上学期有犬儒的烈烈烈拼盘演出，不过当时没去。这次新专辑巡演刚好有时间就过去了。
 
